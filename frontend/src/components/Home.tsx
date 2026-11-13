@@ -22,7 +22,7 @@ const MARQUEE_ROWS = [
 ]
 
 const PLATFORM_TOOLS_URL = 'https://developer.android.com/tools/releases/platform-tools'
-const GITHUB_REPO_URL = 'https://github.com/NOIR-DexPrkr/universal-debloater'
+const GITHUB_REPO_URL = 'https://github.com/NOIR-DexPrkr/android-debloater'
 
 // Easiest install command per platform, with fallbacks when it fails
 const INSTALL_OPTIONS: Record<

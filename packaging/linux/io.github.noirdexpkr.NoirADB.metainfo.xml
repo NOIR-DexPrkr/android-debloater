@@ -26,9 +26,9 @@
       evolved into a universal debloater with a Spanish interface and the Flat Noir visual identity.
     </p>
   </description>
-  <url type="homepage">https://github.com/NOIR-DexPrkr/universal-debloater</url>
-  <url type="bugtracker">https://github.com/NOIR-DexPrkr/universal-debloater/issues</url>
-  <url type="vcs-browser">https://github.com/NOIR-DexPrkr/universal-debloater</url>
+  <url type="homepage">https://github.com/NOIR-DexPrkr/android-debloater</url>
+  <url type="bugtracker">https://github.com/NOIR-DexPrkr/android-debloater/issues</url>
+  <url type="vcs-browser">https://github.com/NOIR-DexPrkr/android-debloater</url>
   <content_rating type="oars-1.1"/>
   <categories>
     <category>Utility</category>

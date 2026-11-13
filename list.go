@@ -19,7 +19,7 @@ import (
 // remoteListURL is where the maintained package lists are published; the app
 // pulls the manifest so users get updates for new OS releases without a new
 // app build. Override with NOIRADB_LIST_URL.
-const remoteListURL = "https://raw.githubusercontent.com/NOIR-DexPrkr/universal-debloater/main/lists/manifest.json"
+const remoteListURL = "https://raw.githubusercontent.com/NOIR-DexPrkr/android-debloater/main/lists/manifest.json"
 
 // maxListSize caps each downloaded file so a bad response cannot exhaust memory
 const maxListSize = 5 << 20

@@ -13,7 +13,7 @@ description: |
   Desktop app for removing bloatware, ads and telemetry from Android
   phones of any brand, with a risk rating for every package.
 vendor: NOIR-DexPrkr
-homepage: https://github.com/NOIR-DexPrkr/universal-debloater
+homepage: https://github.com/NOIR-DexPrkr/android-debloater
 license: GPL-3.0-only
 
 contents:

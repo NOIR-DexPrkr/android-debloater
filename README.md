@@ -68,12 +68,12 @@ Descarga directa de los ejecutables compilados para cada plataforma:
 
 | Plataforma | Binario |
 |---|---|
-| **Windows x64** | [noiradb-windows-amd64.exe](https://github.com/NOIR-DexPrkr/universal-debloater/releases/latest/download/noiradb-windows-amd64.exe) |
-| **Windows ARM64** | [noiradb-windows-arm64.exe](https://github.com/NOIR-DexPrkr/universal-debloater/releases/latest/download/noiradb-windows-arm64.exe) |
-| **macOS (Universal Intel / Apple Silicon)** | [noiradb-macos-universal.zip](https://github.com/NOIR-DexPrkr/universal-debloater/releases/latest/download/noiradb-macos-universal.zip) |
-| **Linux (tar.gz)** | [x64](https://github.com/NOIR-DexPrkr/universal-debloater/releases/latest/download/noiradb-linux-amd64.tar.gz) · [ARM64](https://github.com/NOIR-DexPrkr/universal-debloater/releases/latest/download/noiradb-linux-arm64.tar.gz) |
-| **Ubuntu / Debian / Mint (.deb)** | [.deb x64](https://github.com/NOIR-DexPrkr/universal-debloater/releases/latest/download/noiradb-linux-amd64.deb) · [.deb ARM64](https://github.com/NOIR-DexPrkr/universal-debloater/releases/latest/download/noiradb-linux-arm64.deb) |
-| **Fedora / openSUSE / RHEL (.rpm)** | [.rpm x64](https://github.com/NOIR-DexPrkr/universal-debloater/releases/latest/download/noiradb-linux-amd64.rpm) · [.rpm ARM64](https://github.com/NOIR-DexPrkr/universal-debloater/releases/latest/download/noiradb-linux-arm64.rpm) |
+| **Windows x64** | [noiradb-windows-amd64.exe](https://github.com/NOIR-DexPrkr/android-debloater/releases/latest/download/noiradb-windows-amd64.exe) |
+| **Windows ARM64** | [noiradb-windows-arm64.exe](https://github.com/NOIR-DexPrkr/android-debloater/releases/latest/download/noiradb-windows-arm64.exe) |
+| **macOS (Universal Intel / Apple Silicon)** | [noiradb-macos-universal.zip](https://github.com/NOIR-DexPrkr/android-debloater/releases/latest/download/noiradb-macos-universal.zip) |
+| **Linux (tar.gz)** | [x64](https://github.com/NOIR-DexPrkr/android-debloater/releases/latest/download/noiradb-linux-amd64.tar.gz) · [ARM64](https://github.com/NOIR-DexPrkr/android-debloater/releases/latest/download/noiradb-linux-arm64.tar.gz) |
+| **Ubuntu / Debian / Mint (.deb)** | [.deb x64](https://github.com/NOIR-DexPrkr/android-debloater/releases/latest/download/noiradb-linux-amd64.deb) · [.deb ARM64](https://github.com/NOIR-DexPrkr/android-debloater/releases/latest/download/noiradb-linux-arm64.deb) |
+| **Fedora / openSUSE / RHEL (.rpm)** | [.rpm x64](https://github.com/NOIR-DexPrkr/android-debloater/releases/latest/download/noiradb-linux-amd64.rpm) · [.rpm ARM64](https://github.com/NOIR-DexPrkr/android-debloater/releases/latest/download/noiradb-linux-arm64.rpm) |
 
 > **Nota para macOS:** Al no contar con firma de desarrollador de Apple, en el primer arranque ejecuta en la terminal `xattr -dr com.apple.quarantine "/Applications/NoirADB.app"` o autorízalo en *Ajustes del Sistema > Privacidad y seguridad*.
 
