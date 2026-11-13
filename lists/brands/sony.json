@@ -1,0 +1,78 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.sony.soundenhancement",
+      "description": "Mejora de audio Sony DSEE Ultimate / Dolby Atmos.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sony.tvsideview.videoplayer",
+      "description": "Reproductor de video y control remoto TV SideView de Sony.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sonyericsson.organizer",
+      "description": "Herramientas de organización y utilidades heredadas de Sony.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sonymobile.advancedwidget.entrance",
+      "description": "Xperia Lounge; noticias de entretenimiento, promociones y sorteos de Sony.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sonymobile.cinema",
+      "description": "Cinema Pro; aplicación de grabación de video cinemático manual de Sony.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sonymobile.photopro",
+      "description": "Photography Pro; interfaz de cámara profesional para sensores Xperia.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sonymobile.rsupport",
+      "description": "Asistencia remota para dispositivos Sony Xperia.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sonymobile.support",
+      "description": "Aplicación de soporte técnico Xperia Support.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

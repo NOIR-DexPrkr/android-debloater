@@ -1,0 +1,60 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.zte.appmarket",
+      "description": "Mercado de aplicaciones de ZTE.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.zte.handservice",
+      "description": "Manual interactivo y soporte de usuario ZTE.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.zte.heartyservice",
+      "description": "Hearty Service; centro de optimización y telemetría de ZTE.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.zte.mmitest",
+      "description": "Pruebas de diagnóstico de hardware en fábrica para terminales ZTE.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.zte.videoplayer",
+      "description": "Reproductor de video de ZTE MyOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.zte.weather",
+      "description": "Aplicación del clima de ZTE.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

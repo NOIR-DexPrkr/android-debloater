@@ -1,0 +1,187 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.google.android.apps.camera.services",
+      "description": "Pixel Camera Services; extensiones de cámara para apps de terceros.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.carrier.carrierwifi",
+      "description": "Servicio de conexión automática a redes Wi-Fi de operadoras.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.ccl.telemetry",
+      "description": "Módulo de telemetría y diagnósticos de conectividad de Google.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.diagnosticstool",
+      "description": "Herramienta de diagnóstico de hardware Pixel.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.dreamliner",
+      "description": "Pixel Stand; soporte de base de carga inalámbrica rápida Pixel Stand.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.miphone.aiai.AiaiApplication",
+      "description": "Inteligencia artificial de sistema en Pixel AiAi.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.motionsense.bridge",
+      "description": "Motion Sense (sensor radar Soli en Pixel 4).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.nexuslauncher",
+      "description": "Pixel Launcher; lanzador predeterminado de la pantalla de inicio en Google Pixel.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.apps.pixelmigrate",
+      "description": "Herramienta de transferencia de datos para configurar un nuevo Pixel.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.recorder",
+      "description": "Grabadora de voz de Google con transcripción en tiempo real.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.scone",
+      "description": "Adaptive Connectivity Services; cambio inteligente entre Wi-Fi y 5G.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.tips",
+      "description": "Consejos Pixel; tutorial introductorio sobre las funciones del teléfono.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.wallpaper",
+      "description": "Fondos de pantalla de Google y selector de temas Material You.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.wearables.maestro.companion",
+      "description": "Google Pixel Watch Companion; emparejamiento con el reloj.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.weather",
+      "description": "Aplicación del clima de Google Pixel.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.markup",
+      "description": "Herramienta de edición y dibujo sobre capturas de pantalla.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.pixel.livewallpaper",
+      "description": "Colección de fondos de pantalla en vivo exclusivos de Pixel.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.soundpicker",
+      "description": "Selector de tonos y sonidos del sistema en Google Pixel.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.wallpaper.effects",
+      "description": "Efectos cinemáticos 3D para fondos de pantalla en Pixel.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.pixel.dynamicwallpapers",
+      "description": "Fondos de pantalla animados exclusivos de Google Pixel.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

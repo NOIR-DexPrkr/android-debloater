@@ -1,0 +1,141 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.finshell.wallet",
+      "description": "FinShell Pay; servicio financiero y cartera digital en realme UI.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.appmarket",
+      "description": "Mercado de aplicaciones de realme.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.calculator",
+      "description": "Calculadora de realme UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.community",
+      "description": "Comunidad oficial de usuarios realme.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.compass",
+      "description": "Brújula de realme UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.gallery",
+      "description": "Galería de imágenes de realme UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.gamespace",
+      "description": "Game Space; acelerador de juegos en realme UI.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.link",
+      "description": "realme Link; control de accesorios, relojes y domótica realme.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.movieshot",
+      "description": "Herramienta de edición de video de realme.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.recorder",
+      "description": "Grabadora de voz de realme UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.securitycheck",
+      "description": "Comprobación de seguridad en descargas de realme UI.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.store",
+      "description": "Tienda oficial de productos realme Store.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.systemclone",
+      "description": "Clonador de sistema / espacio privado de realme UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.weather",
+      "description": "Aplicación del clima de realme UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.realme.wellbeing",
+      "description": "Bienestar digital adaptado de realme UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

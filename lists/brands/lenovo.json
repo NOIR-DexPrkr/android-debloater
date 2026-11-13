@@ -1,0 +1,69 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.lenovo.browser",
+      "description": "Navegador web de Lenovo ZUI.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.lenovo.leos.cloud.sync",
+      "description": "Servicio de sincronización en la nube Lenovo Cloud.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.lenovo.lsf.device",
+      "description": "Servicios de autenticación y cuenta Lenovo ID.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.lenovo.menu_assistant",
+      "description": "Asistente de menú flotante en pantalla de Lenovo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.lenovo.service",
+      "description": "Atención al cliente y diagnóstico de terminales Lenovo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.lenovo.weather",
+      "description": "Aplicación del clima de Lenovo.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.lenovo.zui.gamecenter",
+      "description": "Centro de juegos y tienda de promociones Lenovo Game Center.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

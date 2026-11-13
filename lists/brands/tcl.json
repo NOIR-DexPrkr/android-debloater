@@ -1,0 +1,60 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.alcatel.fota",
+      "description": "Actualizador de firmware para dispositivos TCL / Alcatel.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.tcl.account",
+      "description": "Cuenta de usuario TCL y servicios en la nube.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.tcl.compass",
+      "description": "Brújula de TCL UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.tcl.live",
+      "description": "TCL Live; recomendaciones de contenido y noticias promocionadas.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.tcl.soundrecorder",
+      "description": "Grabadora de sonidos de TCL.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.tcl.weather",
+      "description": "Aplicación del clima de TCL.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+# NoirADB fork
+name: Publish
+
+# Builds a TAG, never a branch: whatever shipped is always reachable by version.
+# Started by the Release workflow after it tags a merge to main. To publish a
+# hand-pushed tag, run it from the Actions tab with that tag.
+#
+# This fork only publishes the build artifacts as GitHub Release assets; the
+# Homebrew/Scoop/winget/Snap/Chocolatey channels from upstream were removed.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to publish, e.g. v1.1.0'
+        required: true
+        type: string
+
+concurrency:
+  group: publish-${{ inputs.tag }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TAG: ${{ inputs.tag }}
+
+jobs:
+  linux:
+    name: Build Linux ${{ matrix.arch }}
+    # 22.04, so the binary runs on every distro with glibc 2.35 or newer.
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      matrix:
+        include:
+          - { arch: amd64, runner: ubuntu-22.04 }
+          - { arch: arm64, runner: ubuntu-22.04-arm }
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.tag }}
+
+      - uses: ./.github/actions/setup
+        with:
+          linux-deps: 'true'
+
+      - name: Build
+        run: wails build -tags webkit2_41 -trimpath -clean
+
+      - name: Package
+        env:
+          ARCH: ${{ matrix.arch }}
+        run: |
+          set -euo pipefail
+          export VERSION=${TAG#v}
+          mkdir -p dist
+          # Stable asset name (no version) so the
+          # /releases/latest/download/<asset> link never breaks.
+          tar -czf "dist/noiradb-linux-${ARCH}.tar.gz" -C build/bin noiradb
+
+          # The release binary, not go install: nfpm needs a newer Go than the
+          # go.mod toolchain setup-go pins.
+          nfpm_version=2.47.0
+          case "$ARCH" in amd64) nfpm_arch=x86_64 ;; arm64) nfpm_arch=arm64 ;; esac
+          nfpm_tar="nfpm_${nfpm_version}_Linux_${nfpm_arch}.tar.gz"
+          base="https://github.com/goreleaser/nfpm/releases/download/v${nfpm_version}"
+          (cd "$RUNNER_TEMP" &&
+            curl -fsSLO "$base/$nfpm_tar" -O "$base/checksums.txt" &&
+            grep " ${nfpm_tar}\$" checksums.txt | sha256sum -c - &&
+            tar -xzf "$nfpm_tar" nfpm)
+          "$RUNNER_TEMP/nfpm" pkg -f packaging/nfpm.yaml -p deb -t dist/
+          "$RUNNER_TEMP/nfpm" pkg -f packaging/nfpm.yaml -p rpm -t dist/
+          # Rename away from nfpm's versioned output to stable asset names.
+          mv dist/noiradb_${VERSION}_*.deb "dist/noiradb-linux-${ARCH}.deb"
+          mv dist/noiradb-${VERSION}*.rpm "dist/noiradb-linux-${ARCH}.rpm"
+          ls -l dist
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: linux-${{ matrix.arch }}
+          path: dist/*
+          if-no-files-found: error
+
+  macos:
+    name: Build macOS universal
+    # macos-latest now points to the brand-new macos-26 image, which has been
+    # unavailable/flaky; pin to the latest stable arm64 image instead.
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.tag }}
+
+      - uses: ./.github/actions/setup
+
+      - name: Build
+        run: wails build -platform darwin/universal -trimpath -clean
+
+      # ditto, not zip, and without extended attributes or resource forks:
+      # ditto stores those as ._ files, and Homebrew unzips with unzip, which
+      # would leave them inside the bundle and break its code signature.
+      # macOS then reports the app as damaged.
+      - name: Package
+        run: |
+          mkdir -p dist
+          ditto -c -k --keepParent --norsrc --noextattr --noqtn \
+            build/bin/noiradb.app "dist/noiradb-macos-universal.zip"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: macos
+          path: dist/*
+          if-no-files-found: error
+
+  windows:
+    name: Build Windows
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.tag }}
+
+      - uses: ./.github/actions/setup
+
+      - name: Build
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          for arch in amd64 arm64; do
+            wails build -platform "windows/${arch}" -trimpath -clean
+            mv build/bin/noiradb.exe "dist/noiradb-windows-${arch}.exe"
+          done
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: windows
+          path: dist/*
+          if-no-files-found: error
+
+  release:
+    name: Upload and publish the GitHub release
+    needs: [linux, macos, windows]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ inputs.tag }}
+
+      - uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
+
+      - uses: actions/download-artifact@v8
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Checksums
+        working-directory: dist
+        run: sha256sum -- * > SHA256SUMS.txt && cat SHA256SUMS.txt
+
+      # Release normally created the draft already. A hand-pushed tag has no
+      # release yet, so create one from the changelog section of that version.
+      - name: Upload assets and publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            go run ./scripts/release -notes "${TAG#v}" > notes.md
+            gh release create "$TAG" --draft --verify-tag --title "$TAG" --notes-file notes.md
+          fi
+          gh release upload "$TAG" dist/* --clobber
+          gh release edit "$TAG" --draft=false --latest

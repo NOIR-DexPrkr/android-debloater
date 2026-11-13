@@ -1,0 +1,4549 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "android.miui.home.launcher.res",
+      "description": "Diseño predeterminado de iconos/widgets del primer inicio del launcher de MIUI. Puede afectar el restablecimiento del launcher.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "android.miui.overlay",
+      "description": "Overlay principal del framework de MIUI (recursos/comportamiento de la interfaz). Quitarlo puede romper el sistema.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "android.miui.overlay.telephony",
+      "description": "Overlay de telefonía de MIUI usado por el sistema de llamadas/SMS. Consérvalo o las llamadas/SIM pueden fallar.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "android.miui.poco.launcher.res",
+      "description": "Diseño predeterminado de iconos/widgets del primer inicio del launcher de POCO. Puede afectar el restablecimiento del launcher.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "android.qvaoverlay.common",
+      "description": "Overlay solo de recursos, sin código. Eliminado en la lista 15 Ultra; impacto bajo pero poco beneficio.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "android.romstats",
+      "description": "Reportero de estadísticas/telemetría de la ROM de Xiaomi, pese al nombre tipo Android.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "cn.wps.moffice_eng",
+      "description": "Precarga de WPS Office (compilaciones chinas/globales). Instala tu propia app de oficina si hace falta.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "cn.wps.moffice_eng.xiaomi.lite",
+      "description": "Precarga de visor de documentos basado en WPS. La app Archivos pierde la vista previa de documentos integrada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "cn.wps.xiaomi.abroad.lite",
+      "description": "Mi Doc Viewer (WPS lite): abre archivos Office/PDF. Usa otro visor en su lugar.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.agoda.mobile.consumer",
+      "description": "Plataforma de reservas de alojamiento y vuelos Agoda.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.alibaba.aliexpresshd",
+      "description": "Precarga de la app de compras AliExpress.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.altice.android.myapps",
+      "description": "Stub de tienda de apps del operador Altice/SFR. Inútil fuera de ese operador.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.amazon.appmanager",
+      "description": "Gestor de aplicaciones de Amazon precargado por operadoras y fabricantes.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.amazon.drive",
+      "description": "Almacenamiento en la nube Amazon Drive / Amazon Photos.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.amazon.fv",
+      "description": "Precarga del launcher de la suite de apps de Amazon.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.amazon.kindle",
+      "description": "Lector de libros electrónicos Amazon Kindle.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.amazon.mShop.android",
+      "description": "Precarga de la app Amazon Shopping (nombre de paquete antiguo).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.amazon.mShop.android.shopping",
+      "description": "Aplicación de compras en línea de Amazon; precargada frecuentemente en acuerdos OEM.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.amazon.mp3",
+      "description": "Servicio de música en streaming Amazon Music; prescindible si no se tiene suscripción activa.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.amazon.venezia",
+      "description": "Precarga de Amazon Appstore. Solo importa si compras apps en Amazon.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.DeviceAsWebcam",
+      "description": "Permite usar el teléfono como webcam USB para una PC. Quítalo solo si nunca usas eso.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.apps.tag",
+      "description": "Lee etiquetas NFC (p. ej., carteles inteligentes). Los pagos no se ven afectados, pero se detiene el escaneo de etiquetas.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.backup",
+      "description": "App antigua de copia de seguridad/restauración local de Xiaomi (reemplazada por com.miui.backup en teléfonos más nuevos).",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.backupconfirm",
+      "description": "Confirma los avisos de copia/restauración; quitarlo rompe adb backup y algunas restauraciones (UAD-ng Expert).",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.bips",
+      "description": "Servicio de impresión integrado. Eliminado en varias listas, pero UAD-ng advierte que la app Ajustes puede fallar.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.bluetooth",
+      "description": "Servicio de Bluetooth. Todo el Bluetooth se detiene.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.bluetoothmidiservice",
+      "description": "MIDI por Bluetooth. Solo hace falta para instrumentos musicales Bluetooth.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.bookmarkprovider",
+      "description": "Stub proveedor de marcadores heredado, mantenido por compatibilidad con apps. Rara vez se usa.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.browser",
+      "description": "Mi Browser en algunos modelos (lleno de anuncios). Instala otro navegador primero.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.calculator2",
+      "description": "App calculadora (Xiaomi reutiliza este nombre de AOSP en algunas compilaciones).",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.calendar",
+      "description": "App de calendario de Xiaomi/AOSP. Quítala solo si usas otro calendario.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.calllogbackup",
+      "description": "Respalda el registro de llamadas. Usuarios de XDA reportan que quitarlo puede romper el botón de grabación de llamadas.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.camera",
+      "description": "Cámara de fábrica en muchos teléfonos Xiaomi. Quitarla deja el teléfono sin app de cámara. Consérvala.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.camera2",
+      "description": "Xiaomi Camera en algunos modelos (nombre estilo AOSP). Quitarla deja el teléfono sin cámara de fábrica.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.cameraextensions",
+      "description": "Permite que apps de cámara de terceros usen extensiones de noche/retrato/HDR.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.cellbroadcastreceiver",
+      "description": "Alertas de emergencia/gubernamentales (cell broadcast). Algunas listas lo quitan; pierdes las alertas.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.cellbroadcastreceiver.overlay.common",
+      "description": "Overlay para los ajustes de alertas de emergencia. Impacto bajo; eliminado en la lista 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.chrome",
+      "description": "Google Chrome. Seguro si usas otro navegador; algunas apps dependen de él para flujos tipo WebView.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.companiondevicemanager",
+      "description": "Empareja dispositivos compañeros (relojes, pulseras). Quitarlo puede romper el emparejamiento de wearables.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.contacts",
+      "description": "App de contactos (Xiaomi reutiliza este nombre). Quitarla puede romper contactos/marcador en MIUI.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.cts.ctsshim",
+      "description": "Shim del Compatibility Test Suite; inactivo. Eliminado en muchas listas sin problemas reportados.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.cts.priv.ctsshim",
+      "description": "Shim privilegiado de CTS; UAD-ng advierte que puede interferir con las actualizaciones OTA.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.deskclock",
+      "description": "App de reloj/alarmas. Quitarla pierde las alarmas salvo que instales otra app de reloj.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.dreams.basic",
+      "description": "Protector de pantalla básico (Daydream). Nada más depende de él.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.dreams.phototable",
+      "description": "Protector de pantalla de fotos (Daydream). Nada más depende de él.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.dynsystem",
+      "description": "Dynamic System Updates (arranca imágenes GSI). UAD-ng lo califica como Expert; poco beneficio.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.egg",
+      "description": "Huevo de pascua de la versión de Android. ovsky lo conserva solo para restaurar, pero es inofensivo quitarlo.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.email",
+      "description": "App de correo de Xiaomi (nombre estilo AOSP). Quítala si usas Gmail u otro cliente.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.emergency",
+      "description": "Información de emergencia en la pantalla de bloqueo/menú de energía. Seguro salvo que dependas de datos médicos.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.exchange",
+      "description": "Sincronización Exchange para la app de correo de fábrica. Quítala junto con la app de correo.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.fileexplorer",
+      "description": "Administrador de archivos de Xiaomi (nombre antiguo). Instala otro administrador de archivos primero.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.globalFileexplorer",
+      "description": "Administrador de archivos de Xiaomi (global). Muestra anuncios; instala otro administrador de archivos primero.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.hotwordenrollment.okgoogle",
+      "description": "Registro de la palabra de activación \"OK Google\". La palabra de activación por voz deja de funcionar.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.hotwordenrollment.xgoogle",
+      "description": "Registro de la palabra de activación \"OK Google\" (variante). La palabra de activación por voz deja de funcionar.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.htmlviewer",
+      "description": "Visor HTML simple; UAD-ng reporta bootloop en algunos teléfonos MIUI 12.5.4+.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.incallui",
+      "description": "Interfaz de teléfono/llamada de Xiaomi en algunos modelos. No la quites o las llamadas se rompen.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.internal.systemui.navbar.gestural",
+      "description": "Overlay de navegación por gestos. Quitarlo rompe la navegación por deslizamiento.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.internal.systemui.navbar.gestural_extra_wide_back",
+      "description": "Opción de sensibilidad del gesto de retroceso. Parte de la navegación por gestos; UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.internal.systemui.navbar.gestural_narrow_back",
+      "description": "Opción de sensibilidad del gesto de retroceso. Parte de la navegación por gestos; UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.internal.systemui.navbar.gestural_wide_back",
+      "description": "Opción de sensibilidad del gesto de retroceso. Parte de la navegación por gestos; UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.internal.systemui.onehanded.gestural",
+      "description": "Overlay de modo a una mano. Quítalo solo si nunca usas el modo a una mano.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.keychain",
+      "description": "Almacén de credenciales del sistema para certificados (Wi-Fi, VPN, apps). Listado por KernelTruth; UAD-ng Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.keyguard",
+      "description": "Componente de revista de la pantalla de bloqueo en algunas compilaciones OEM. Los extras de la pantalla de bloqueo pueden desaparecer.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.localtransport",
+      "description": "Transporte de copia de seguridad local. Listado por KernelTruth; UAD-ng lo califica como Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.location.fused",
+      "description": "Proveedor de ubicación fusionada. El GPS/ubicación de las apps puede fallar.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.managedprovisioning",
+      "description": "Configuración de perfil de trabajo/device owner. Rompe los perfiles de trabajo y algunos flujos de configuración.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.managedprovisioning.overlay",
+      "description": "Overlay para la configuración del perfil de trabajo. Impacto bajo; eliminado en la lista 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.microdroid.empty_payload",
+      "description": "Marcador de posición vacío para la virtualización de Android. Eliminado en la lista 15 Ultra sin problemas reportados.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.midrive",
+      "description": "Almacenamiento en la nube Mi Drive (nombre antiguo). Quítalo si no usas Xiaomi Cloud Drive.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.mms",
+      "description": "App de mensajes en MIUI (nombre de AOSP reutilizado). Instala otra app de SMS primero.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.mms.service",
+      "description": "Envía/recibe MMS. Listado por KernelTruth; los MMS dejan de funcionar si lo quitas.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.musicfx",
+      "description": "Ecualizador del sistema usado por apps de música. Quitarlo elimina el EQ en algunos reproductores.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.networkstack.tethering.inprocess",
+      "description": "Componente de tethering; UAD-ng reporta bucles en la pantalla de bloqueo en algunos teléfonos Xiaomi.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.nfc",
+      "description": "Servicio NFC. Listado por KernelTruth, pero NFC, pagos y el emparejamiento por toque dejan de funcionar.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.ons",
+      "description": "Servicio de red oportunista para multi-SIM/cambio de operador. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.overlay.circletosearch",
+      "description": "Overlay de Circle to Search; UAD-ng reporta un soft brick en HyperOS al quitarlo.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.overlay.gmscontactprovider",
+      "description": "Overlay que vincula la sincronización de contactos con los servicios de Google. Eliminado en la lista 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.overlay.gmssettingprovider",
+      "description": "Overlay con los ajustes de copia de seguridad de Google. Eliminado en la lista 15 Ultra; la copia de seguridad puede verse afectada.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.overlay.gmssettings",
+      "description": "Overlay para los ajustes de Safety de Google. Eliminado en la lista 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.packageinstaller",
+      "description": "Instala/actualiza/elimina apps. Nunca lo quites; no podrás instalar APK.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "mpierson",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.phone",
+      "description": "Servicio de teléfono/telefonía. Las llamadas y la SIM se rompen. Nunca lo quites.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.phone.recorder",
+      "description": "Grabador de llamadas (Xiaomi reutiliza este nombre en algunas compilaciones). La grabación se detiene.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.printspooler",
+      "description": "Cola de impresión. La impresión se detiene. UAD-ng lo califica como Expert; las listas 15 Ultra/ovsky lo quitan.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.providers.blockednumber",
+      "description": "Guarda números bloqueados; UAD-ng señala que puede romper los recientes en algunos teléfonos.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.providers.contacts",
+      "description": "Base de datos de contactos. Quitarla rompe contactos, marcador y mensajería.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.providers.downloads",
+      "description": "Administrador de descargas. Las descargas de apps y del navegador fallan.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.providers.downloads.ui",
+      "description": "Interfaz de la app Descargas (la versión de MIUI muestra anuncios). Las descargas siguen funcionando sin ella.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.providers.media",
+      "description": "Proveedor de almacenamiento de medios. Galería, cámara y acceso a archivos se rompen sin él.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "ovsky",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.providers.media.module",
+      "description": "Módulo de proveedor de medios/selector de fotos. Las apps que usan el selector de fotos se rompen.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.providers.partnerbookmarks",
+      "description": "Marcadores de socios inyectados en los navegadores. Nada depende de ellos.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.providers.settings",
+      "description": "Almacenamiento de ajustes. Quitarlo puede causar bootloop en el dispositivo.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.providers.telephony",
+      "description": "Base de datos de telefonía (SMS, APN). La mensajería y los datos se rompen.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.providers.userdictionary",
+      "description": "Diccionario de usuario para teclados. Listado por KernelTruth; UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.provision",
+      "description": "Componente de configuración inicial/provisioning. Listado por KernelTruth, pero UAD-ng lo califica como Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.proxyhandler",
+      "description": "Manejador de configuración automática de proxy. UAD-ng lo califica como Expert; solo importa si usas un proxy.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.quicksearchbox",
+      "description": "Widget de búsqueda (Xiaomi lo modifica en algunas compilaciones). Seguro si no lo usas.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.role.notes.enabled",
+      "description": "Overlay que habilita el rol predeterminado de Notas. Eliminado en la lista 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.se",
+      "description": "Servicio de Secure Element para pagos NFC/apps tipo eSIM. KernelTruth lo lista; UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.server.telecom",
+      "description": "Gestor de llamadas de Telecom. Las llamadas se rompen.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.settings",
+      "description": "La app Ajustes. Nunca la quites.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "ovsky",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.sharedstoragebackup",
+      "description": "Respalda el almacenamiento compartido durante las copias del sistema. La copia local/de Google puede quedar incompleta.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.shell",
+      "description": "Shell de ADB. Quitarlo hace que este debloater deje de funcionar.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.simappdialog",
+      "description": "Ofrece instalar apps del operador al insertar una SIM. UAD-ng Expert; la lista 15 Ultra lo quita.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.smspush",
+      "description": "Maneja SMS WAP-push/de servicio (mensajes de configuración del operador). Listado por KernelTruth.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.soundpicker",
+      "description": "Selector de tonos/sonidos. Sin él no puedes elegir tonos de llamada (UAD-ng Expert).",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.soundrecorder",
+      "description": "Grabadora de sonido de Xiaomi (nombre estilo AOSP). Quítala solo si usas otra grabadora.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.stk",
+      "description": "SIM Toolkit: menús/servicios SIM del operador. Algunos operadores lo necesitan; consérvalo si no estás seguro.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.systemui",
+      "description": "System UI (barra de estado, notificaciones, navegación). Nunca lo quites.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.systemui.accessibility.accessibilitymenu",
+      "description": "Acceso directo del Menú de accesibilidad. Solo hace falta si usas el menú de accesibilidad en pantalla.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.systemui.gesture.line.overlay",
+      "description": "Overlay de la línea de la barra de navegación por gestos. Listado por KernelTruth; UAD-ng Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.systemui.miui.optimization.overlay",
+      "description": "Overlay de SystemUI de MIUI sin uso. Impacto bajo.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.theme.font.notoserifsource",
+      "description": "Paquete de fuentes opcional Noto Serif/Source Sans. Nada más depende de él.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.thememanager",
+      "description": "MIUI Themes. UAD-ng: el fondo de pantalla de bloqueo y los tonos del reloj se rompen; ovsky lo considera riesgoso.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.thememanager.customizethemeconfig.config.overlay",
+      "description": "Overlay de valores predeterminados de temas. Quítalo solo si se elimina Themes.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.thememanager.gliobal_config.config.overlay",
+      "description": "Overlay de configuración global de Themes (lista de bloqueo de fondos). Impacto bajo.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.thememanager.module",
+      "description": "Módulo del administrador de temas. UAD-ng Expert; consérvalo salvo que sepas que no necesitas temas.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.traceur",
+      "description": "Herramienta de trazado del sistema para desarrolladores. Nada más depende de ella.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.updater",
+      "description": "Actualizador del sistema (OTA). Listado por KernelTruth, pero MIUI más antiguas entran en bootloop y pierdes las actualizaciones.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.vending",
+      "description": "Google Play Store. No podrás instalar ni actualizar apps de Play.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.virtualmachine.res",
+      "description": "Contenedor de permisos para la virtualización de Android. UAD-ng Expert; la lista 15 Ultra lo quita.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.voicedialer",
+      "description": "Marcador por voz. Quítalo si nunca marcas por voz.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.vpndialogs",
+      "description": "Diálogos de consentimiento de VPN. XDA: quitarlo rompe todas las apps de VPN. Consérvalo si usas una VPN.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.wallpaper.livepicker",
+      "description": "Selector de fondos animados. Algunas apps de fondos/widgets del clima se rompen sin él.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.wallpaperbackup",
+      "description": "Respalda los ajustes de fondo de pantalla. El fondo no se restaura tras el restablecimiento.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.wallpapercropper",
+      "description": "Herramienta de recorte de fondos. HyperOS puede fallar al establecer fondos sin ella.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.att.dh",
+      "description": "Herramienta de soporte y diagnóstico del operador AT&T Device Help.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.att.myWireless",
+      "description": "Portal de facturación y gestión de cuenta móvil myAT&T.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.audible.application",
+      "description": "Precarga de audiolibros de Audible.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.aura.oobe.att",
+      "description": "Asistente OOBE de AT&T para instalación automática de aplicaciones de terceros.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.aura.oobe.deutsche",
+      "description": "Recomendador de apps de fábrica de Telekom (precarga del operador).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.aura.oobe.vodafone",
+      "description": "Servicio de instalación desatendida de aplicaciones publicitarias de Vodafone / Digital Turbine.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.autonavi.minimap",
+      "description": "Precarga de Amap (Gaode Maps) en ROMs de China.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.baidu.input_mi",
+      "description": "Teclado Baidu (ROM de China). Instala otro teclado antes de quitarlo.",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.bitdefender.security",
+      "description": "Precarga del antivirus Bitdefender.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.block.juggle",
+      "description": "Juego precargado Block Blast.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.block.puzzle.game.hippo.mi",
+      "description": "Juego precargado Block Puzzle.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.booking",
+      "description": "Agencia de reservas de hoteles y viajes Booking.com.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.bsp.catchlog",
+      "description": "Capturador de registros del board support package (logs de depuración). No hace falta para el uso normal.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.caf.fmradio",
+      "description": "App de radio FM de Qualcomm. Quítala si no escuchas FM.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.cequint.ecid",
+      "description": "Identificador de llamadas Cequint (servicio del operador).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.crazy.juicer.xm",
+      "description": "Juego casual precargado (Crazy Juicer).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.dragon.read",
+      "description": "Precarga de app de lectura china (ROM de China).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.dsi.ant.plugins.antplus",
+      "description": "Complementos de ANT+ para sensores de actividad física. Elimínalos si no usas dispositivos ANT+.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.dsi.ant.sample.acquirechannels",
+      "description": "Asistente de canales ANT+. Elimínalo si no usas dispositivos ANT+.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.dsi.ant.server",
+      "description": "Servidor HAL de ANT para sensores de actividad física. Elimínalo si no usas dispositivos ANT+.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.dsi.ant.service.socket",
+      "description": "Servicio de radio ANT para sensores de actividad física. Elimínalo si no usas dispositivos ANT+.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.dti.bouyguestelecom",
+      "description": "Instalador de apps del operador Bouygues (AppCloud).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.dti.folderlauncher",
+      "description": "Digital Turbine Ignite; instalador publicitario de juegos y apps promocionadas por operadoras.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.dti.telefonica",
+      "description": "Instalador de apps del operador O2/Telefónica que se ejecuta en segundo plano.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.duokan.phone.remotecontroller",
+      "description": "Mi Remote (emisor de IR). Elimínalo si no controlas TVs/aires acondicionados con el teléfono.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.duokan.phone.remotecontroller.peel.plugin",
+      "description": "Complemento de guía de TV Peel para Mi Remote.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.duokan.reader",
+      "description": "Lector de libros digitales Duokan (ROM de China) con anuncios/rastreo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.ebay.carrier",
+      "description": "Componente de eBay precargado por el operador.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.ebay.mobile",
+      "description": "eBay precargado",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.einnovation.temu",
+      "description": "App de compras Temu precargada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.expedia.bookings",
+      "description": "Aplicación de viajes y alquileres de vehículos Expedia.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.facebook.appmanager",
+      "description": "Servicio en segundo plano para instalación y actualización desatendida de servicios de Facebook / Meta.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.facebook.katana",
+      "description": "Cliente oficial de la red social Facebook; consumo elevado de batería y telemetría de rastreo publicitario.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.facebook.orca",
+      "description": "Mensajería instantánea de Facebook Messenger; prescindible si se usa la versión web o Lite.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.facebook.services",
+      "description": "Servicio del sistema Meta para sincronización de contactos y telemetría de uso en segundo plano.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.facebook.system",
+      "description": "Instalador del sistema Meta; precargado en fábrica en múltiples marcas.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.facemoji.lite.xiaomi.gp",
+      "description": "Teclado Facemoji (versión de Play). Instala primero otro teclado.",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.fido.asm",
+      "description": "Autenticador FIDO para inicio de sesión sin contraseña/biométrico. Algunas apps pueden necesitarlo.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.fido.xiaomi.uafclient",
+      "description": "Cliente FIDO de Xiaomi para inicios de sesión biométricos en apps. Elimínalo solo si no usas inicio de sesión con passkeys.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.fingerprints.extension.service",
+      "description": "Extensión de prueba del sensor de huellas. No se usa en operación normal.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.fingerprints.sensortesttool",
+      "description": "Herramienta oculta de prueba del sensor de huellas.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.flipboard.app",
+      "description": "App de noticias Flipboard precargada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.flipboard.boxer.app",
+      "description": "Resumen de Flipboard precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.fugo.wow",
+      "description": "Juego Words of Wonders precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.funtomic.matchmasters",
+      "description": "Juego Match Masters precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.gallery.player",
+      "description": "Reproductor de video antiguo de la Galería MIUI. La reproducción de video en la Galería puede fallar.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.gameduell.tarot",
+      "description": "Juego de tarot/cartas precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.goodix.fingerprint",
+      "description": "Stub del administrador de huellas Goodix (sin código). Componente de prueba.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.goodix.fingerprint.producttest",
+      "description": "Prueba de fábrica oculta de huellas Goodix.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.goodix.gftest",
+      "description": "App oculta de prueba de huellas Goodix.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.ambient.streaming",
+      "description": "Transmite apps del teléfono a un Chromebook. Elimínalo si no usas eso.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.accessibility.switchaccess",
+      "description": "Switch Access (controla el teléfono con interruptores). Solo accesibilidad.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.adservices.api",
+      "description": "Servicios de anuncios de Privacy Sandbox (Android 13+). Se elimina en la lista del 15 Ultra; Play puede reinstalarlo.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.books",
+      "description": "Google Play Books precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.docs",
+      "description": "Google Drive precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.googleassistant",
+      "description": "App de acceso directo de Google Assistant.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.healthdata",
+      "description": "Stub del marco de datos de salud. UAD-ng dice que no se necesita para Health Connect.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.magazines",
+      "description": "Google News precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.maps",
+      "description": "Google Maps precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.messaging",
+      "description": "Google Messages. Instala primero otra app de SMS o perderás los mensajes de texto.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.photos",
+      "description": "Google Photos precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.plus",
+      "description": "Google+ (servicio descontinuado).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.podcasts",
+      "description": "Google Podcasts (servicio descontinuado).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.restore",
+      "description": "Asistente de restauración de Google usado tras un restablecimiento. No se necesita tras la configuración inicial.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.safetyhub",
+      "description": "Google Personal Safety (choques de auto, uso compartido de emergencia). Elimínalo si no lo usas.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.setupwizard.searchselector",
+      "description": "Selector de motor de búsqueda que aparece durante la configuración inicial. No se necesita después.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.subscriptions.red",
+      "description": "App de Google One precargada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.tachyon",
+      "description": "App de videollamadas Google Meet/Duo precargada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.turbo",
+      "description": "Device Health Services (batería adaptativa). UAD-ng: los ajustes de batería dejan de funcionar.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.walletnfcrel",
+      "description": "Google Wallet/Pay. Los pagos sin contacto se detienen si lo eliminas.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.wellbeing",
+      "description": "Bienestar digital (tiempo de pantalla, modo a la hora de dormir). Elimínalo si no lo usas.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.apps.youtube.music",
+      "description": "YouTube Music precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.as",
+      "description": "Android System Intelligence: texto inteligente, subtítulos en vivo, sugerencias de apps.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.as.oss",
+      "description": "Private Compute Services, un asistente para las funciones de System Intelligence.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.calendar",
+      "description": "Google Calendar precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.cellbroadcastreceiver",
+      "description": "Alertas inalámbricas de emergencia. La lista del 15 Ultra lo elimina, pero pierdes las alertas (UAD-ng Expert).",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.cellbroadcastservice",
+      "description": "Servicio de difusión celular detrás de las alertas de emergencia. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.configupdater",
+      "description": "Envía actualizaciones de configuración de seguridad: claves TLS fijas, códigos cortos SMS y más. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.contacts",
+      "description": "Google Contacts. Mantén instalada una app de contactos.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.dialer",
+      "description": "Google Phone, el marcador predeterminado en muchas versiones globales de Xiaomi. Instala primero otro marcador.",
+      "category": "bloatware",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.documentsui",
+      "description": "Selector de archivos (Storage Access Framework). Las apps no pueden abrir/guardar archivos.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.ext.services",
+      "description": "Módulo central de ExtServices (orden de notificaciones, autocompletado). UAD-ng: inseguro.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.ext.shared",
+      "description": "Biblioteca compartida de Android. KernelTruth la lista, pero UAD-ng reporta bootloop en MIUI 14.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.federatedcompute",
+      "description": "Componente de aprendizaje federado del stack de personalización/anuncios en el dispositivo de Google.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.feedback",
+      "description": "Enviador de comentarios/reportes de fallos de Play Store (Market Feedback Agent).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.gm",
+      "description": "Gmail precargado. Elimínalo si usas otra app de correo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.gms",
+      "description": "Google Play Services. Casi todas las apps de Google y muchas de terceros dejan de funcionar.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.gms.location.history",
+      "description": "Stub del historial de ubicación de Google (solo icono/nombre).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.gms.supervision",
+      "description": "Componente de controles parentales de Family Link. Solo se necesita para cuentas supervisadas.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.googlequicksearchbox",
+      "description": "App de Google/Búsqueda. Assistant, Discover y el widget de búsqueda dejan de funcionar.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.gsf",
+      "description": "Google Services Framework. El inicio de sesión, las notificaciones push y Play dejan de funcionar.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.health.connect.backuprestore",
+      "description": "Copia de seguridad/restauración de Health Connect. XDA: elimínalo con las demás partes de Health Connect.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.healthconnect.controller",
+      "description": "Health Connect: comparte datos entre apps de actividad física. Las apps pueden perder la sincronización.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.ims",
+      "description": "Carrier Services (chat RCS, funciones VoLTE en algunos operadores). Consérvalo si usas RCS.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.inputmethod.latin",
+      "description": "Gboard. Instala primero otro teclado o perderás la entrada de texto.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.marvin.talkback",
+      "description": "Android Accessibility Suite (TalkBack, Select to Speak). Necesario para usuarios de accesibilidad.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.music",
+      "description": "Google Play Music (descontinuado).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.networkstack.tethering",
+      "description": "Stack de anclaje a red. El punto de acceso y el anclaje por USB/Bluetooth dejan de funcionar.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.ondevicepersonalization.services",
+      "description": "Personalización en el dispositivo para los anuncios de Privacy Sandbox.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.onetimeinitializer",
+      "description": "Inicializador de Google del primer arranque. No se necesita tras la configuración inicial.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.overlay.gmsconfig.common",
+      "description": "Superposición de configuración de servicios de Google. UAD-ng: el inicio de sesión de Google en apps puede fallar.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.overlay.gmsconfig.geotz",
+      "description": "Configuración de zona horaria por ubicación de Google. UAD-ng Expert; KernelTruth la lista.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.overlay.gmsconfig.gsa",
+      "description": "Superposición de configuración del asistente predeterminado. Bajo impacto según UAD-ng.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.overlay.gmsconfig.photos",
+      "description": "Superposición de configuración de Google Photos. UAD-ng reporta fallos de desbloqueo en algunos dispositivos con Android 15.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.overlay.gmsconfig.searchselector",
+      "description": "Superposición del selector de búsqueda. La lista del 15 Ultra la elimina, pero UAD-ng reporta fallos en muchas apps.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.overlay.modules.captiveportallogin.forframework",
+      "description": "Superposición de valores predeterminados de inicio de sesión en portales cautivos. Se elimina en la lista del 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.overlay.modules.documentsui",
+      "description": "Superposición de Files/DocumentsUI. UAD-ng reporta páginas de Ajustes que fallan en Android 15.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.overlay.modules.healthfitness.forframework",
+      "description": "Superposición del marco de Health Connect. XDA: elimínala con Health Connect.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.overlay.modules.permissioncontroller",
+      "description": "Superposición del controlador de permisos. Usuarios de XDA la relacionaron con el botón de grabación de llamadas.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.overlay.modules.permissioncontroller.forframework",
+      "description": "Superposición del marco del controlador de permisos. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.packageinstaller",
+      "description": "Instalador de paquetes en versiones recientes de Android. Las instalaciones/actualizaciones de APK fallan.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.partnersetup",
+      "description": "Google Partner Setup (integración de socios/cuentas). Algunas funciones de Google pueden fallar.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.permissioncontroller",
+      "description": "Controlador de permisos. Las apps no pueden solicitar permisos.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.printservice.recommendation",
+      "description": "Sugiere complementos de impresión de Play Store.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.projection.gearhead",
+      "description": "Android Auto. La integración con el auto se detiene; mpierson indica reinstalarlo para arreglar Auto.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.setupwizard",
+      "description": "Asistente de configuración inicial de Google. UAD-ng advierte que eliminarlo puede causar problemas; solo KernelTruth lo lista.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.talk",
+      "description": "Google Hangouts (descontinuado).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.tts",
+      "description": "Síntesis de voz de Google. La voz de navegación y la lectura en voz alta dejan de funcionar.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.videos",
+      "description": "Google TV (Play Movies) precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.webview",
+      "description": "Android System WebView. Las apps que muestran contenido web dejan de funcionar.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.google.android.youtube",
+      "description": "YouTube precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.ar.core",
+      "description": "Google Play Services for AR. Las funciones de AR en las apps dejan de funcionar.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.ar.lens",
+      "description": "App independiente de Google Lens.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.audio.hearing.visualization.accessibility.scribe",
+      "description": "Live Transcribe y Sound Notifications (accesibilidad).",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.mainline.adservices",
+      "description": "Marcador de versión mainline de AdServices. Se elimina en la lista del 15 Ultra; módulo obligatorio según UAD-ng.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.mainline.telemetry",
+      "description": "Reporta a Play las versiones instaladas de los módulos mainline. Las actualizaciones de módulos pueden verse afectadas.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.vr.vrcore",
+      "description": "Google VR Services (descontinuado).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.gotv.nflgamecenter.us.lite",
+      "description": "App de la NFL precargada por el operador.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huaqin.diaglogger",
+      "description": "Registrador de diagnóstico oculto que se abre con códigos del marcador (ODM Huaqin).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.iflytek.inputmethod.miui",
+      "description": "Teclado iFlytek (ROM de China). Instala primero otro teclado.",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.imdb.mobile",
+      "description": "App de IMDb precargada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.infraware.polarisoffice5",
+      "description": "Polaris Office precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.ironsource.appcloud.oobe.hutchison",
+      "description": "Recomendador de apps de ironSource AppCloud para Three/Hutchison (empresa de publicidad).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.jewelsblast.ivygames.Adventure.free",
+      "description": "Juego Jewels Blast precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.jiiov.fingerprint_factorytest",
+      "description": "Prueba de fábrica para sensores de huellas Jiiov.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.king.candycrushsaga",
+      "description": "Juego publicitario precargado Candy Crush Saga.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.king.candycrushsodasaga",
+      "description": "Juego publicitario precargado Candy Crush Soda Saga.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.lbe.security.miui",
+      "description": "Administrador de permisos de MIUI. ovsky: solo para restaurar; UAD-ng: inseguro. Nunca lo elimines.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "ovsky",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.lbe.security.miui.customizedregion.overlay",
+      "description": "Superposición regional para el administrador de permisos de MIUI. Bajo impacto.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.lemon.lvoverseas",
+      "description": "Editor de video CapCut precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.linkedin.android",
+      "description": "App de LinkedIn precargada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.logame.eliminateintruder3d",
+      "description": "Juego casual precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.longcheertel.midtest",
+      "description": "Prueba oculta de ensamblaje de hardware (ODM Longcheer).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mediatek.engineermode",
+      "description": "Modo de ingeniería de MediaTek (menú de depuración oculto). Normalmente no se necesita.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.micredit.in",
+      "description": "App de préstamos Mi Credit (India).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.microsoft.appmanager",
+      "description": "Vincular a Windows / Enlace Móvil para sincronizar notificaciones y fotos con PC Windows.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.microsoft.deviceintegrationservice",
+      "description": "Asistente para Link to Windows. Elimínalo junto con este.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.microsoft.office.excel",
+      "description": "Hojas de cálculo Microsoft Excel.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.microsoft.office.officehubrow",
+      "description": "Suite de ofimática móvil Microsoft 365 (Word, Excel, PowerPoint integrados).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.microsoft.office.outlook",
+      "description": "Gestor de correo electrónico y calendario Microsoft Outlook.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.microsoft.office.powerpoint",
+      "description": "Presentaciones Microsoft PowerPoint.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.microsoft.office.word",
+      "description": "Procesador de textos Microsoft Word.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.microsoft.skydrive",
+      "description": "Sincronización de archivos y fotos en la nube Microsoft OneDrive.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.microsoftsdk.crossdeviceservicebroker",
+      "description": "Intermediario entre dispositivos para Link to Windows. Elimínalo junto con este.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.mig.play.games",
+      "description": "Hub de juegos de terceros Funmax incluido por Xiaomi.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mintgames.triplecrush.tile.fun",
+      "description": "Juego Tile Fun precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mintgames.wordtrip",
+      "description": "Juego Word Trip precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mitv.milinkservice",
+      "description": "Servicio de transmisión MiLink (antiguo). Deja de funcionar la transmisión de pantalla a los televisores Xiaomi.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miuix.editor",
+      "description": "Asistente de acciones de texto para Frases frecuentes.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mobiletools.systemhelper",
+      "description": "Asistente de sistema oculto (herramientas de doble SIM/info de apps).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.moomoo.trade",
+      "description": "App precargada de trading moomoo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.msandroid.mobile",
+      "description": "MagisTV / XuperTV: App no oficial de IPTV comúnmente vinculada a adware o troyanos. Se recomienda desinstalar y consultar alternativas seguras en https://paste.cnrxd.com/tvip",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "community"
+      ]
+    },
+    {
+      "package": "com.netflix.mediaclient",
+      "description": "App precargada de Netflix.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.netflix.partner.activation",
+      "description": "Stub de activación de socios de Netflix.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.nf.snake",
+      "description": "Juego precargado Snake.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.nuance.swype.input",
+      "description": "Teclado Swype. Instala otro teclado primero.",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oakever.tiletrip",
+      "description": "Juego precargado Tile Trip.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.opera.browser",
+      "description": "Navegador Opera precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.opera.max.oem",
+      "description": "Ahorrador de datos de Opera Max (descontinuado).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.opera.mini.native",
+      "description": "Opera Mini precargado",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.opera.preinstall",
+      "description": "Datos de rastreo de la precarga de Opera.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.orange.aura.oobe",
+      "description": "Configuraci?n inicial y recomendador de apps del operador Orange.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.orange.update",
+      "description": "Actualizador de apps del operador Orange.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.ordinaryjoy.woodblast",
+      "description": "Juego precargado Wood Blast.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.plarium.raidlegends",
+      "description": "Precarga de RAID: Shadow Legends.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.playrix.gardenscapes",
+      "description": "Juego Gardenscapes precargado en partición comercial.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.playrix.homescapes",
+      "description": "Juego Homescapes precargado por distribuidores.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.preff.kb.xm",
+      "description": "Teclado de emojis y fuentes para Xiaomi. Instala otro teclado primero.",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qti.confuridialer",
+      "description": "Marcador de conferencias SIP oculto de Qualcomm.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qti.dcf",
+      "description": "Ayudante de Qualcomm para compartir contenido por Bluetooth. Eliminado en la lista de 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qti.diagservices",
+      "description": "Servicio de diagn?stico de Qualcomm que inicia al conectar USB.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qti.dpmserviceapp",
+      "description": "Administrador de energ?a de datos de Qualcomm para el m?dem. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qti.qcc",
+      "description": "Marco de registro/pruebas de Qualcomm. Eliminado en la lista de 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qti.qualcomm.datastatusnotification",
+      "description": "Notificaciones del l?mite de datos m?viles. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qti.qualcomm.deviceinfo",
+      "description": "Pantalla oculta de informaci?n del dispositivo de Qualcomm. La info de Ajustes no se ve afectada.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qti.service.colorservice",
+      "description": "Servicio de color de pantalla de Qualcomm. Rara vez se usa.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qti.slaservice",
+      "description": "Analizador de calidad de red (SLA) de Qualcomm.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qti.snapdragon.qcdm_ff",
+      "description": "Componente de diagn?stico de Qualcomm listado solo por KernelTruth.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth"
+      ]
+    },
+    {
+      "package": "com.qti.xdivert",
+      "description": "Desv?o inteligente de llamadas entre SIM. Elim?nalo si no usas desv?o de llamadas.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.atfwd",
+      "description": "Reenv?a comandos AT del m?dem. Eliminado en la lista de 15 Ultra; riesgo bajo seg?n UAD-ng.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.atfwd2",
+      "description": "Segundo reenviador de comandos AT. Eliminado en la lista de 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.autoregistration",
+      "description": "Autorregistro de garant?a que ha enviado ID del dispositivo en texto plano.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.biometrics.fingerprint.qfsfactorytest",
+      "description": "Prueba de f?brica de huellas de Qualcomm (lista de 15 Ultra).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.callfeaturessetting",
+      "description": "Ajustes ocultos de desv?o/en espera de llamadas.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.confdialer",
+      "description": "Marcador de llamadas de conferencia LTE.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.improvetouch.service",
+      "description": "Peque?o servicio de ajuste t?ctil. Uso de desarrollador.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.performancemode",
+      "description": "Pantalla oculta del modo de rendimiento de Qualcomm.",
+      "category": "system",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.poweroffalarm",
+      "description": "Permite que las alarmas enciendan el tel?fono. Las alarmas pueden fallar con el tel?fono apagado (UAD-ng Expert).",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.qccauthmgr",
+      "description": "Administrador de claves de telemetr?a de Qualcomm.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.qdma",
+      "description": "Gesti?n y anal?tica de dispositivos de Qualcomm.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.qms.service.connectionsecurity",
+      "description": "Servicio de telemetr?a de Qualcomm.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.qms.service.trustzoneaccess",
+      "description": "Servicio de registro de gesti?n de calidad de Qualcomm.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.remoteSimlockAuth",
+      "description": "Autenticaci?n remota de bloqueo de SIM del operador.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.ridemodeaudio",
+      "description": "Grabadora de audio oculta del modo de conducci?n.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.server.qtiwifi",
+      "description": "Servicio de anal?tica/OEM de Wi-Fi de Qualcomm. Eliminado en la lista de 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.services.systemhelper",
+      "description": "Servicio auxiliar de sistema de Qualcomm. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.uim",
+      "description": "Servicio de bloqueo remoto de SIM. Eliminado en la lista de 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.uimGbaApp",
+      "description": "Autenticaci?n UIM/GBA para tarjetas R-UIM. Eliminado en la lista de 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.xrcb",
+      "description": "Receptor de radiodifusi?n (alertas). Eliminado en la lista de 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.qti.xrvd.service",
+      "description": "Servicio de pruebas XRVD para desarrolladores.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.timeservice",
+      "description": "Conserva el desfase horario tras reinicios. UAD-ng Expert; el reloj puede reiniciarse.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.qualcomm.uimremoteclient",
+      "description": "Cliente UIM remoto para tarjetas R-UIM.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.uimremoteserver",
+      "description": "Servidor UIM remoto para tarjetas R-UIM.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.qualcomm.wfd.service",
+      "description": "Servicio Wi-Fi Display (Miracast). La transmisi?n de pantalla a televisores puede detenerse.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.quicinc.voice.activation",
+      "description": "Detecci?n de voz siempre activa de Qualcomm.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.rovio.baba",
+      "description": "Juego promocional Angry Birds precargado en variantes de operadores.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sfr.android.sfrjeux",
+      "description": "App de juegos del operador SFR.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.singtel.mysingtel",
+      "description": "App del operador Singtel precargada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.skype.raider",
+      "description": "Skype precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.soulcompany.bubbleshooter.relaxing",
+      "description": "Juego precargado de disparo de burbujas.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.spotify.music",
+      "description": "Spotify precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.ss.android.ugc.trill",
+      "description": "TikTok precargado (paquete regional).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth"
+      ]
+    },
+    {
+      "package": "com.sukhavati.gotoplaying.bubble.BubbleShooter.mint",
+      "description": "Juego precargado Bubble Shooter.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.supercell.clashofclans",
+      "description": "Juego Clash of Clans precargado por acuerdos OEM.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sybogames.chuggers",
+      "description": "Juego Subway Surfers precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.tencent.soter.soterserver",
+      "description": "Autenticaci?n biom?trica Tencent Soter para WeChat/apps chinas. El pago con huella all? puede dejar de funcionar.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.tmobile.pr.mytmobile",
+      "description": "Gestor de cuenta y promociones del operador T-Mobile.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.touchtype.swiftkey",
+      "description": "Teclado SwiftKey. Instala otro teclado primero.",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.tripadvisor.tripadvisor",
+      "description": "Tripadvisor precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.tripledot.solitaire",
+      "description": "Juego precargado Solitaire.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.truecaller",
+      "description": "Truecaller precargado",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.trustonic.tuiservice",
+      "description": "Interfaz confiable de Trustonic para ingresar PIN/pagos de forma segura. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.unionpay.tsmservice.mi",
+      "description": "Servicio de tarjetas UnionPay (solo China).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.verizon.mips.services",
+      "description": "Servicio del sistema para aprovisionamiento y telemetría de Verizon.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vitastudio.mahjong",
+      "description": "Juego precargado Mahjong.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.vzw.hss.myverizon",
+      "description": "Gestión de cuenta y servicios del operador móvil Verizon.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.wapi.wapicertmanage",
+      "description": "Administrador de certificados Wi-Fi WAPI (est?ndar Wi-Fi chino).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.wdstechnology.android.kryten",
+      "description": "Configuraci?n oculta de puntos de acceso OTA. UAD-ng dice que las actualizaciones siguen funcionando sin ?l.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.wingtech.standard",
+      "description": "App de prueba de hardware de Wingtech (ODM).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.wps.moffice_eng",
+      "description": "WPS Office precargado",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.wt.secret_code_manager",
+      "description": "Gestor oculto de c?digos secretos del marcador (registro ODM).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.wt.version_query",
+      "description": "Herramienta oculta de consulta de versi?n que se abre con c?digos secretos.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.zhiliaoapp.musically",
+      "description": "TikTok precargado.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "de.autodoc.gmbh",
+      "description": "App precargada de compra de repuestos de auto Autodoc.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "de.telekom.tsc",
+      "description": "Telekom AppEnabler: instala apps y muestra anuncios.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "net.wooga.junes_journey_hidden_object_mystery_game",
+      "description": "Juego precargado June's Journey.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "org.ifaa.aidl.manager",
+      "description": "Autenticaci?n biom?trica IFAA para apps tipo Alipay. Eliminado en la lista de 15 Ultra.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "vendor.qti.qesdk.sysservice",
+      "description": "Servicio de depuraci?n/registro QESDK de Qualcomm. Eliminado en la lista de 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    }
+  ]
+}

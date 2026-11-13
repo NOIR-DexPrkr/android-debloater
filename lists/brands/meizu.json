@@ -1,0 +1,60 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.meizu.cloud",
+      "description": "Almacenamiento y sincronización en la nube Flyme Cloud.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.meizu.flyme.update",
+      "description": "Actualizador de software OTA de Flyme OS.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.meizu.flyme.wallet",
+      "description": "Cartera digital y pagos móviles Meizu Pay.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.meizu.media.music",
+      "description": "Reproductor de música Flyme Music con catálogo en línea.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.meizu.media.video",
+      "description": "Reproductor de video Flyme Video con contenidos recomendados.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.meizu.net.map",
+      "description": "Servicio de mapas y ubicación de Meizu.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

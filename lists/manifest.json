@@ -1,0 +1,251 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "lists": [
+    {
+      "id": "general",
+      "name": "General",
+      "file": "general.json",
+      "aliases": [],
+      "os_names": [],
+      "version": "2026.10.30",
+      "count": 373
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "file": "brands/xiaomi.json",
+      "aliases": [
+        "xiaomi",
+        "redmi",
+        "poco"
+      ],
+      "os_names": [
+        "MIUI",
+        "HyperOS"
+      ],
+      "version": "2026.10.30",
+      "count": 285
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "file": "brands/samsung.json",
+      "aliases": [
+        "samsung"
+      ],
+      "os_names": [
+        "One UI"
+      ],
+      "version": "2026.10.30",
+      "count": 92
+    },
+    {
+      "id": "google",
+      "name": "Google Pixel",
+      "file": "brands/google.json",
+      "aliases": [
+        "google"
+      ],
+      "os_names": [
+        "Pixel"
+      ],
+      "version": "2026.10.30",
+      "count": 20
+    },
+    {
+      "id": "oneplus",
+      "name": "OnePlus",
+      "file": "brands/oneplus.json",
+      "aliases": [
+        "oneplus"
+      ],
+      "os_names": [
+        "OxygenOS",
+        "HydrogenOS"
+      ],
+      "version": "2026.10.30",
+      "count": 20
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO",
+      "file": "brands/oppo.json",
+      "aliases": [
+        "oppo"
+      ],
+      "os_names": [
+        "ColorOS"
+      ],
+      "version": "2026.10.30",
+      "count": 24
+    },
+    {
+      "id": "realme",
+      "name": "realme",
+      "file": "brands/realme.json",
+      "aliases": [
+        "realme"
+      ],
+      "os_names": [
+        "realme UI"
+      ],
+      "version": "2026.10.30",
+      "count": 15
+    },
+    {
+      "id": "vivo",
+      "name": "vivo / iQOO",
+      "file": "brands/vivo.json",
+      "aliases": [
+        "vivo",
+        "iqoo"
+      ],
+      "os_names": [
+        "Funtouch OS",
+        "OriginOS"
+      ],
+      "version": "2026.10.30",
+      "count": 22
+    },
+    {
+      "id": "motorola",
+      "name": "Motorola",
+      "file": "brands/motorola.json",
+      "aliases": [
+        "motorola",
+        "moto"
+      ],
+      "os_names": [
+        "Hello UX",
+        "My UX"
+      ],
+      "version": "2026.10.30",
+      "count": 16
+    },
+    {
+      "id": "huawei",
+      "name": "Huawei / Honor",
+      "file": "brands/huawei.json",
+      "aliases": [
+        "huawei",
+        "honor"
+      ],
+      "os_names": [
+        "EMUI",
+        "MagicOS",
+        "HarmonyOS"
+      ],
+      "version": "2026.10.30",
+      "count": 23
+    },
+    {
+      "id": "asus",
+      "name": "Asus",
+      "file": "brands/asus.json",
+      "aliases": [
+        "asus"
+      ],
+      "os_names": [
+        "ZenUI"
+      ],
+      "version": "2026.10.30",
+      "count": 10
+    },
+    {
+      "id": "sony",
+      "name": "Sony",
+      "file": "brands/sony.json",
+      "aliases": [
+        "sony",
+        "xperia"
+      ],
+      "os_names": [
+        "Xperia UI"
+      ],
+      "version": "2026.10.30",
+      "count": 8
+    },
+    {
+      "id": "nokia",
+      "name": "Nokia / HMD",
+      "file": "brands/nokia.json",
+      "aliases": [
+        "nokia",
+        "hmd"
+      ],
+      "os_names": [
+        "Android One"
+      ],
+      "version": "2026.10.30",
+      "count": 8
+    },
+    {
+      "id": "lenovo",
+      "name": "Lenovo",
+      "file": "brands/lenovo.json",
+      "aliases": [
+        "lenovo",
+        "zuk"
+      ],
+      "os_names": [
+        "ZUI"
+      ],
+      "version": "2026.10.30",
+      "count": 7
+    },
+    {
+      "id": "zte",
+      "name": "ZTE",
+      "file": "brands/zte.json",
+      "aliases": [
+        "zte"
+      ],
+      "os_names": [
+        "MyOS"
+      ],
+      "version": "2026.10.30",
+      "count": 6
+    },
+    {
+      "id": "tcl",
+      "name": "TCL / Alcatel",
+      "file": "brands/tcl.json",
+      "aliases": [
+        "tcl",
+        "alcatel"
+      ],
+      "os_names": [
+        "TCL UI"
+      ],
+      "version": "2026.10.30",
+      "count": 6
+    },
+    {
+      "id": "nubia",
+      "name": "nubia",
+      "file": "brands/nubia.json",
+      "aliases": [
+        "nubia"
+      ],
+      "os_names": [
+        "nubia UI"
+      ],
+      "version": "2026.10.30",
+      "count": 6
+    },
+    {
+      "id": "meizu",
+      "name": "Meizu",
+      "file": "brands/meizu.json",
+      "aliases": [
+        "meizu"
+      ],
+      "os_names": [
+        "Flyme"
+      ],
+      "version": "2026.10.30",
+      "count": 6
+    }
+  ]
+}

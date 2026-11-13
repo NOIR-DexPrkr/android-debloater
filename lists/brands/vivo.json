@@ -1,0 +1,205 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.bbk.account",
+      "description": "Cuenta de usuario vivo / BBK Account.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.bbk.appstore",
+      "description": "Instalador de la tienda BBK App Store.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.bbk.cloud",
+      "description": "vivo Cloud; sincronización de notas, contactos y fotos en la nube.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.bbk.launcher2",
+      "description": "Lanzador de pantalla de inicio de Funtouch OS.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.bbk.theme",
+      "description": "Tienda de temas e iconos iTheme de vivo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.iqoo.engineermode",
+      "description": "Telemetría y modo de prueba de ingeniería en dispositivos iQOO.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.iqoo.secure",
+      "description": "Centro de seguridad y optimización iQOO Secure.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.appstore",
+      "description": "V-Appstore; tienda de aplicaciones de vivo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.browser",
+      "description": "Navegador web de vivo Funtouch / OriginOS.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.calculator",
+      "description": "Calculadora de vivo.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.compass",
+      "description": "Brújula de vivo.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.daemon",
+      "description": "Demonio de analíticas del sistema y telemetría de vivo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.easyshare",
+      "description": "EasyShare; transferencia de archivos entre dispositivos vivo.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.gallery",
+      "description": "Galería de fotos de Funtouch OS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.gamecube",
+      "description": "Ultra Game Mode / Game Cube para optimización de juegos en vivo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.gamewatch",
+      "description": "Monitor y estadísticas de rendimiento en juegos.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.globalsearch",
+      "description": "Búsqueda global en el dispositivo con sugerencias en línea.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.magazine",
+      "description": "Revista de pantalla de bloqueo con fondos dinámicos y anuncios.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.smartshot",
+      "description": "Captura de pantalla avanzada y grabación en vivo.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.soundrecorder",
+      "description": "Grabadora de sonidos de vivo.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.tips",
+      "description": "Consejos y tutoriales de funciones de vivo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.vivo.weather",
+      "description": "Aplicación del clima de vivo.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

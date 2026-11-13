@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.noirdexpkr.NoirADB</id>
+  <name>NoirADB</name>
+  <summary>Universal Android debloater over ADB, without root</summary>
+  <developer id="io.github.noirdexpkr">
+    <name>Dex Parker</name>
+  </developer>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-only</project_license>
+  <launchable type="desktop-id">io.github.noirdexpkr.NoirADB.desktop</launchable>
+  <description>
+    <p>
+      NoirADB removes bloatware, ads and telemetry from Android phones of any brand
+      (Xiaomi, Samsung, Google Pixel, OnePlus, OPPO, realme, vivo, Motorola, Huawei and more).
+      It works over ADB and needs no root and no bootloader unlock.
+    </p>
+    <ul>
+      <li>Multi-brand package lists with plain-Spanish descriptions and a risk rating</li>
+      <li>The package lists update from the project repository without reinstalling the app</li>
+      <li>Reversible: apps are uninstalled for the current user only and can be restored</li>
+      <li>Built-in guide to debloating safely</li>
+    </ul>
+    <p>
+      NoirADB is inspired by the original Xiaomi Debloater project by Fadel Trivandi Dipantara,
+      evolved into a universal debloater with a Spanish interface and the Flat Noir visual identity.
+    </p>
+  </description>
+  <url type="homepage">https://github.com/NOIR-DexPrkr/universal-debloater</url>
+  <url type="bugtracker">https://github.com/NOIR-DexPrkr/universal-debloater/issues</url>
+  <url type="vcs-browser">https://github.com/NOIR-DexPrkr/universal-debloater</url>
+  <content_rating type="oars-1.1"/>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <keywords>
+    <keyword>android</keyword>
+    <keyword>adb</keyword>
+    <keyword>debloat</keyword>
+    <keyword>xiaomi</keyword>
+    <keyword>samsung</keyword>
+    <keyword>pixel</keyword>
+  </keywords>
+  <releases>
+    <release version="0.1.0" date="2026-11-13">
+      <description>
+        <p>Initial Beta release of NoirADB.</p>
+      </description>
+    </release>
+  </releases>
+</component>

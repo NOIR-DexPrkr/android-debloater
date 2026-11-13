@@ -1,0 +1,60 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "cn.nubia.account",
+      "description": "Cuenta de usuario nubia ID.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "cn.nubia.gamelauncher",
+      "description": "RedMagic Game Space; espacio de juego de nubia / RedMagic.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "cn.nubia.neosafe",
+      "description": "NeoSafe; optimizador y centro de seguridad del sistema nubia.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "cn.nubia.recorder",
+      "description": "Grabadora de voz de nubia UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "cn.nubia.theme",
+      "description": "Tienda de temas e iconos de nubia UI.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "cn.nubia.weather",
+      "description": "Aplicación del clima de nubia.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

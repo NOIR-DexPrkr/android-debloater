@@ -1,0 +1,19 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "noiradb",
+  "outputfilename": "noiradb",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm build",
+  "frontend:dev:watcher": "pnpm dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "Dex Parker"
+  },
+  "info": {
+    "companyName": "Dex Parker / NR",
+    "productName": "Noir Android Debloater",
+    "productVersion": "0.1.0",
+    "copyright": "Noir Android Debloater (NoirADB) © Dex Parker / NR. Inspirado originalmente en Xiaomi Debloater © Fadel Trivandi Dipantara. GPL-3.0.",
+    "comments": "Universal Android debloater over ADB, without root (Beta)"
+  }
+}

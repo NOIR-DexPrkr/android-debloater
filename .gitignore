@@ -1,0 +1,75 @@
+# Go / Wails build output
+/build/bin/
+/noiradb
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+*.o
+*.a
+
+# Go test output
+*.test
+*.out
+PROGRESS.md
+
+# Node / pnpm / frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/package.json.md5
+.vite/
+frontend/.vite/
+*.tsbuildinfo
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Generated Wails bindings
+frontend/wailsjs/
+
+# Build artifacts
+*.app/
+*.dmg
+
+# IDEs & editors
+.vscode/
+.idea/
+.zed/
+.fleet/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+.history/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Testing & coverage
+coverage/
+.coverage
+
+# Scratch & reference dumps
+scratch/
+*-scratch.*
+*-scratch.txt
+bayton-*
+uad-*
+
+# OS-specific & temporary files
+._*
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+.claude/

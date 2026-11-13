@@ -1,0 +1,223 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.coloros.backuprestore",
+      "description": "Copia de seguridad y migración Clone Phone de OPPO.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.calculator",
+      "description": "Calculadora de ColorOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.compass2",
+      "description": "Brújula de ColorOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.filemanager",
+      "description": "Administrador de archivos de ColorOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.gallery3d",
+      "description": "Galería de fotos de ColorOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.gamespace",
+      "description": "Game Space; panel de rendimiento y notificaciones en juegos.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.lockscreenservice",
+      "description": "Servicio de contenidos dinámicos de pantalla de bloqueo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.phonemanager",
+      "description": "Administrador del teléfono y optimizador de ColorOS.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.scenemode",
+      "description": "Breeno escénico / sugerencias contextuales de situaciones.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.soundrecorder",
+      "description": "Grabadora de sonidos de ColorOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.speechassist",
+      "description": "Asistente inteligente de voz Breeno Voice.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.coloros.video",
+      "description": "Reproductor de video predeterminado de ColorOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.browser",
+      "description": "Navegador web HeyTap Browser de OPPO.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.cloud",
+      "description": "Almacenamiento y sincronización en la nube HeyTap Cloud.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.habit.analysis",
+      "description": "Análisis de hábitos de uso y recopilación analítica.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.market",
+      "description": "App Market de OPPO; tienda de aplicaciones alternativa.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.mcs",
+      "description": "Servicio de mensajería push en la nube HeyTap MCS.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.music",
+      "description": "Reproductor de música y streaming HeyTap Music.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.pictorial",
+      "description": "Revista de pantalla de bloqueo con fondos y noticias publicitarias.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.quicksearchbox",
+      "description": "Búsqueda rápida global de ColorOS.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.speechassist",
+      "description": "Asistente por voz HeyTap / Breeno en ColorOS.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.themestore",
+      "description": "Tienda de temas y fondos de pantalla HeyTap Theme Store.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.heytap.usercenter",
+      "description": "Centro de cuentas de usuario OPPO / HeyTap ID.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oppo.launcher",
+      "description": "Lanzador de pantalla de inicio ColorOS Launcher.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    }
+  ]
+}

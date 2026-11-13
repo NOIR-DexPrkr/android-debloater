@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=NoirADB
+GenericName=Android Debloater
+Comment=Universal Android debloater over ADB, without root
+Exec=noiradb
+Icon=io.github.noirdexpkr.NoirADB
+Terminal=false
+Categories=Utility;
+Keywords=xiaomi;samsung;pixel;oneplus;oppo;realme;vivo;motorola;huawei;adb;android;bloatware;debloat;noiradb;
+StartupWMClass=noiradb

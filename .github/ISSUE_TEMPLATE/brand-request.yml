@@ -1,0 +1,47 @@
+name: Brand request
+description: Request support for a new brand or submit an installed package list
+title: "[New Brand] "
+labels: ["new-brand", "package-list"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por solicitar una nueva marca para NoirADB!
+        Si exportaste los paquetes desde la aplicación, puedes pegar el reporte a continuación.
+  - type: input
+    id: brand
+    attributes:
+      label: Brand & Manufacturer
+      placeholder: Infinix / Transsion
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device Model & OS version
+      placeholder: Infinix Hot 40 Pro, XOS 14 (Android 14)
+    validations:
+      required: true
+  - type: textarea
+    id: packages
+    attributes:
+      label: Installed packages list (JSON or plain text)
+      description: Pega aquí el reporte generado por NoirADB o arrastra el archivo .json descargado.
+      placeholder: |
+        {
+          "brand": "Infinix",
+          "model": "X6837",
+          "android": "14",
+          "packages": [
+            "com.transsion.hilauncher",
+            "com.transsion.camerakit"
+          ]
+        }
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes (Optional)
+      description: ¿Hay aplicaciones que sepas que causan bootloop o problemas graves si se eliminan? ¿O bloatware específico molesto?
+

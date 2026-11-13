@@ -1,0 +1,96 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.asus.armoury",
+      "description": "Armoury Crate; panel de control de ventiladores, RGB y macros en ROG Phone.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.asus.atd.devicecheck",
+      "description": "Herramienta de diagnóstico de hardware y pruebas de fábrica.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.asus.calculator",
+      "description": "Calculadora de Asus ZenUI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.asus.dm",
+      "description": "Gestor de diagnóstico y mantenimiento de Asus.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.asus.filemanager",
+      "description": "Administrador de archivos de Asus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.asus.gamecenter",
+      "description": "Game Genie; asistente de optimización de juegos en Asus ZenUI / ROG.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.asus.livedemo",
+      "description": "Modo demostración en tiendas ASUS Live Demo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.asus.soundrecorder",
+      "description": "Grabadora de sonidos de Asus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.asus.weather",
+      "description": "Aplicación del clima de Asus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.asus.webstorage",
+      "description": "ASUS WebStorage; sincronización en la nube propietaria de Asus.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

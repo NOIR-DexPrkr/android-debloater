@@ -1,0 +1,215 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.hihonor.android.launcher",
+      "description": "Lanzador de pantalla de inicio de MagicOS (Honor).",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.hihonor.appmarket",
+      "description": "Honor App Market; tienda de aplicaciones en terminales Honor.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.hihonor.cloud",
+      "description": "Honor Cloud; almacenamiento y sincronización en la nube de Honor.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.hihonor.health",
+      "description": "Honor Health; monitor de salud de dispositivos Honor.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.android.launcher",
+      "description": "Lanzador de pantalla de inicio de EMUI.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.huawei.appmarket",
+      "description": "HUAWEI AppGallery; tienda de aplicaciones de Huawei.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.browser",
+      "description": "Navegador web Huawei Browser.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.calculator",
+      "description": "Calculadora de EMUI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.compass",
+      "description": "Brújula de EMUI / MagicOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.fans",
+      "description": "Club de fans y foro comunitario My Huawei.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.gamebox",
+      "description": "GameCenter de Huawei; tienda y acelerador de juegos.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.health",
+      "description": "Huawei Salud; monitor de ejercicio, pasos y dispositivos wearables.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.hidisk",
+      "description": "Huawei Cloud; servicio de copia de seguridad y almacenamiento en la nube.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.hifolder",
+      "description": "Carpetas inteligentes con recomendaciones de aplicaciones comerciales.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.himovie",
+      "description": "Portal de cine y series Huawei Movies.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.intelligent",
+      "description": "Huawei Assistant · TODAY; pantalla con feed de noticias y tarjetas.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.music",
+      "description": "Reproductor de música Huawei Music con servicio de suscripción.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.photos",
+      "description": "Galería de imágenes y fotos de Huawei.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.search",
+      "description": "Petal Search; motor de búsqueda global y recomendador de apps.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.soundrecorder",
+      "description": "Grabadora de voz de EMUI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.vassistant",
+      "description": "Asistente inteligente por voz Celia / HiVoice.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.video",
+      "description": "Reproductor de video Huawei Video con contenido de streaming comercial.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.huawei.wallet",
+      "description": "Huawei Wallet / Huawei Pay para tarjetas y pagos digitales.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,837 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.enhance.gameservice",
+      "description": "Servicio complementario de mejora y optimización de juegos de Samsung.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.allshare.service.fileshare",
+      "description": "Transferencia directa de archivos AllShare File Share.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.allshare.service.mediashare",
+      "description": "Compartir contenido multimedia por DLNA / AllShare.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.appsedge",
+      "description": "Panel Edge de aplicaciones fijadas.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.clipboardedge",
+      "description": "Panel Edge de portapapeles de Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.cocktailbarservice",
+      "description": "Paneles Edge; barra lateral de accesos directos en One UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.contacts",
+      "description": "Contactos de Samsung; prescindible si se usa Contactos de Google.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.dressroom",
+      "description": "Selector de fondos de pantalla y personalización de pantalla de bloqueo.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.notes",
+      "description": "Aplicación de notas y apuntes Samsung Notes.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.reminder",
+      "description": "Gestor de recordatorios y alarmas Samsung Reminder.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.routines",
+      "description": "Bixby Routines / Modos y Rutinas de automatización en One UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.settings.bixby",
+      "description": "Ajustes y menú de configuración para Bixby.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.sharelive",
+      "description": "Compartir en vivo Quick Share.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.simplesharing",
+      "description": "Compartición de enlaces Link Sharing de Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.soundalive",
+      "description": "Ecualizador de audio SoundAlive / Dolby Atmos en Samsung.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.soundpicker",
+      "description": "Selector de pistas de audio y tonos de llamada de Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.spage",
+      "description": "Pantalla de noticias y contenidos sugeridos Samsung Free / Bixby Home.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.app.taskedge",
+      "description": "Panel Edge de tareas y accesos rápidos.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.ardrawing",
+      "description": "Función Dibujos AR para pintar en realidad aumentada sobre la cámara.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.aremoji",
+      "description": "Avatares tridimensionales animados AR Emoji de Samsung.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.aremojieditor",
+      "description": "Editor de personalización para avatares AR Emoji.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.arrealastic",
+      "description": "Motor de efectos de iluminación y física para Realidad Aumentada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.arzone",
+      "description": "Zona AR; centro de herramientas y efectos de Realidad Aumentada.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.authfw",
+      "description": "Marco de autenticación de identidad y cuenta Samsung.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.aware.service",
+      "description": "Servicio Quick Share / Compartir Rápido con dispositivos Samsung cercanos.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.beaconmanager",
+      "description": "Servicio de detección de balizas Bluetooth de proximidad.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.bixby.agent",
+      "description": "Asistente de voz Bixby Voice; prescindible si se utiliza Google Assistant o ningún asistente.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.bixby.service",
+      "description": "Servicio del sistema para Bixby y escucha activa en segundo plano.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.bixby.wakeup",
+      "description": "Detección de la frase de activación por voz 'Hi Bixby'.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.bixbyvision.framework",
+      "description": "Marco de reconocimiento visual e inteligencia artificial Bixby Vision en la cámara.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.calendar",
+      "description": "Calendario de Samsung; prescindible si se utiliza Google Calendar.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.camerascenerecognition",
+      "description": "Optimizador de escenas y reconocimiento IA en cámara Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.dialer",
+      "description": "Teléfono / Marcador de llamadas de Samsung One UI.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.samsung.android.dynamiclock",
+      "description": "Fondos de pantalla dinámicos en la pantalla de bloqueo de One UI.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.easysetup",
+      "description": "Configuración fácil y sincronización automática de accesorios Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.email.provider",
+      "description": "Cliente de correo electrónico Samsung Email.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.fmm",
+      "description": "Buscar mi móvil (Find My Mobile); desactiva el servicio en Ajustes antes de desinstalar.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.game.gamehome",
+      "description": "Game Launcher; centro de juegos de Samsung con promociones y anuncios.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.game.gametools",
+      "description": "Herramientas de optimización en pantalla durante partidas Game Booster.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.game.gos",
+      "description": "Game Optimizing Service (GOS); limita rendimiento térmico y throttling en juegos y apps.",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.honeyboard",
+      "description": "Teclado Samsung HoneyBoard; no desinstalar sin otro teclado configurado.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.ipsgeofence",
+      "description": "Sistema de geocercas y seguimiento de ubicación en segundo plano.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.kids",
+      "description": "Espacio seguro e interactivo para niños Samsung Kids.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.kidsinstaller",
+      "description": "Instalador del entorno protegido Modo Niños (Samsung Kids).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.knox.containercore",
+      "description": "Núcleo de seguridad y contenedores corporativos Knox.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.samsung.android.livestickers",
+      "description": "Pegatinas y efectos dinámicos en vivo para la cámara de Samsung.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.mdx",
+      "description": "Enlace multidispositivo y continuidad de llamadas y mensajes en tablets Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.mdx.kit",
+      "description": "Kit de herramientas para vinculación multidispositivo Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.messaging",
+      "description": "Cliente de SMS/MMS de Samsung; prescindible si se usa Google Mensajes.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.mobileservice",
+      "description": "Samsung Experience Service; sincronización de perfil, contactos y cuenta Samsung.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.oneconnect",
+      "description": "SmartThings; ecosistema de control de dispositivos inteligentes y domótica.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.privateshare",
+      "description": "Private Share; envío seguro de archivos cifrados con caducidad.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.rubin.app",
+      "description": "Servicio Rubin de análisis de comportamiento, personalización y telemetría de Samsung.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.samsungpass",
+      "description": "Samsung Pass; gestor de contraseñas y datos biométricos propietario.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.samsungpassautofill",
+      "description": "Servicio de autocompletado de credenciales de Samsung Pass.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.scloud",
+      "description": "Sincronización de fotos, notas y ajustes en la nube Samsung Cloud.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.scs",
+      "description": "Samsung Core Services; biblioteca de componentes de inteligencia One UI.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.service.health",
+      "description": "Servicio en segundo plano para sensores y registro de Samsung Health.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.service.livedrawing",
+      "description": "Dibujos animados interactivos sobre pantalla Live Message.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.service.peoplestripe",
+      "description": "Panel Edge de contactos frecuentes People Edge.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.sm.devicesecurity",
+      "description": "Módulo de análisis antimalware de McAfee integrado en Mantenimiento del Dispositivo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.smartface",
+      "description": "Smart Stay / detección de rostro para mantener la pantalla encendida.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.spay",
+      "description": "Samsung Wallet / Samsung Pay para pagos móviles mediante NFC.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.spayfw",
+      "description": "Marco del sistema Samsung Pay Framework; necesario únicamente si se utiliza Samsung Pay.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.stickercenter",
+      "description": "Centro de descarga y gestión de pegatinas decorativas.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.themestore",
+      "description": "Galaxy Themes; tienda de temas, fondos de pantalla e iconos.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.visionintelligence",
+      "description": "Inteligencia visual y análisis contextual de imágenes para Bixby.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.voc",
+      "description": "Samsung Members; diagnóstico de hardware, soporte y promociones de la comunidad.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.android.weather",
+      "description": "Aplicación del clima de Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.desktopsystemui",
+      "description": "Interfaz gráfica SystemUI para el modo de escritorio DeX.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.knox.securefolder",
+      "description": "Carpeta Segura de Samsung Knox; prescindible si no se utiliza.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.samsung.systemui.bixby2",
+      "description": "Integración de Bixby con la interfaz SystemUI y botones físicos.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.billing",
+      "description": "Servicio de facturación Samsung Checkout en Galaxy Store.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.clockpackage",
+      "description": "Reloj y alarmas de Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.dexonpc",
+      "description": "Soporte de conexión de Samsung DeX a través de aplicación en PC.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.fm",
+      "description": "Radio FM de Samsung; requiere auriculares con cable.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.launcher",
+      "description": "One UI Home Launcher; lanzador central del sistema.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.sec.android.app.myfiles",
+      "description": "Explorador de archivos Mis Archivos de Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.popupcalculator",
+      "description": "Calculadora básica de Samsung.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.samsungapps",
+      "description": "Galaxy Store; tienda secundaria de aplicaciones y actualizaciones de Samsung.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.sbrowser",
+      "description": "Navegador web Samsung Internet; prescindible si se utiliza Chrome, Brave o Firefox.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.shealth",
+      "description": "Samsung Health; monitor de pasos, sueño y actividad deportiva.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.app.voicenote",
+      "description": "Grabadora de voz de Samsung con transcripción.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.autodoodle.service",
+      "description": "Servicio Auto Doodle de reconocimiento de trazos en cámara.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.daemonapp",
+      "description": "Servicio del clima de Samsung One UI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.desktopmode.uiservice",
+      "description": "Samsung DeX; interfaz de escritorio al conectar pantalla externa o PC.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.diagmonagent",
+      "description": "Agente de diagnóstico de errores, analíticas de estabilidad y telemetría.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.easyMover",
+      "description": "Smart Switch; herramienta de migración de datos desde dispositivos antiguos.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.android.mimage.avatarstickers",
+      "description": "Paquetes de pegatinas animadas generadas a partir de AR Emoji.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.enterprise.knox.cloudmdm.smdms",
+      "description": "Cliente de administración corporativa Knox Cloud MDM.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.knox.kccagent",
+      "description": "Agente de configuración Knox Customization.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sec.knox.knoxsetupwizardclient",
+      "description": "Asistente de configuración corporativa Knox.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

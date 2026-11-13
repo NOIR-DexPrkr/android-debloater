@@ -1,0 +1,151 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.motorola.brapps",
+      "description": "Aplicaciones recomendadas para Brasil / Latinoamérica en dispositivos Moto.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.bug2go",
+      "description": "Herramienta de reporte de errores y volcados de registro Bug2Go.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.ccc.notification",
+      "description": "Notificaciones y promociones comerciales de Motorola.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.ccc.ota",
+      "description": "Encuestas y diagnósticos de satisfacción tras actualización OTA.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.demo",
+      "description": "Modo demostración en tiendas para expositores.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.faceunlock",
+      "description": "Desbloqueo facial 2D de Motorola.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.fmplayer",
+      "description": "Radio FM de Motorola; requiere auriculares con cable como antena.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.gamemode",
+      "description": "Moto Gametime; panel flotante y optimización para juegos.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.genie",
+      "description": "Sugerencias interactivas y tutoriales Moto Genie.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.gestures",
+      "description": "Gestos inteligentes Moto Actions en Hello UX.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.help",
+      "description": "Ayuda del dispositivo y manuales de usuario Moto Help.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.launcher3",
+      "description": "Lanzador de pantalla de inicio Moto App Launcher.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.motorola.mobiledesktop",
+      "description": "Interfaz de escritorio para Motorola Ready For.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.moto",
+      "description": "App central Moto para gestión de gestos (linterna, cámara rápida).",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.readyfor",
+      "description": "Motorola Ready For; experiencia de escritorio al conectar a monitor o PC.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.motorola.visualvoicemail",
+      "description": "Buzón de voz visual dependiente de operador.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

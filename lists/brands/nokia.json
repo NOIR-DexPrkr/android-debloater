@@ -1,0 +1,78 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.evenwell.AprUploadService",
+      "description": "Carga de informes de error y analíticas APR a servidores de FIH.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.evenwell.DeviceMonitor",
+      "description": "Monitor de actividad y telemetría de hardware Evenwell.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.evenwell.PowerSaving.g3",
+      "description": "Evenwell Power Saving; gestor de batería agresivo que suele cerrar procesos en segundo plano.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.evenwell.batteryprotect",
+      "description": "Protección de batería Evenwell con límites forzados de consumo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.evenwell.bservice",
+      "description": "Servicio en segundo plano Evenwell para telemetría de Foxconn / FIH.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.evenwell.telecom.telephony",
+      "description": "Módulo de telemetría de red Evenwell.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.hmdglobal.datamigration",
+      "description": "Asistente de migración de datos para terminales Nokia.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.hmdglobal.support",
+      "description": "My Device / Soporte técnico y diagnóstico de dispositivos Nokia por HMD.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

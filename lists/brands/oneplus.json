@@ -1,0 +1,187 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "com.oneplus.account",
+      "description": "Cuenta de usuario OnePlus y servicios asociados.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.backuprestore",
+      "description": "Clone Phone / Copia de seguridad y migración OnePlus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.brickmode",
+      "description": "Variante del Modo Zen para desconexión digital.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.calculator",
+      "description": "Calculadora de OnePlus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.deskclock",
+      "description": "Reloj y alarmas de OnePlus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.factorymode",
+      "description": "Modo de prueba de ingeniería y pruebas de hardware en fábrica.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.filemanager",
+      "description": "Administrador de archivos de OnePlus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.gallery",
+      "description": "Galería de imágenes de OnePlus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.gamespace",
+      "description": "Game Space; optimizador y panel de juegos OnePlus.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.mall",
+      "description": "Tienda oficial OnePlus Store.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.membership",
+      "description": "Club de miembros OnePlus Community.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.note",
+      "description": "Aplicación de notas de OnePlus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.screenrecorder",
+      "description": "Grabadora de pantalla integrada de OxygenOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.sound.tuner",
+      "description": "Ecualizador y optimizador de sonido Dirac / Dolby en OnePlus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.weather",
+      "description": "Aplicación del clima de OnePlus.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.oneplus.zenmode",
+      "description": "Modo Zen; bloqueo temporal del teléfono para concentración.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "net.oneplus.launcher",
+      "description": "Lanzador de pantalla de inicio OnePlus Launcher.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "net.oneplus.odm",
+      "description": "OnePlus Device Manager; telemetría y diagnósticos de dispositivo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "net.oneplus.odm.provider",
+      "description": "Proveedor de datos analíticos para telemetría ODM.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "net.oneplus.push",
+      "description": "Servicio push de notificaciones comerciales de OnePlus.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    }
+  ]
+}

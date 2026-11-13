@@ -1,0 +1,3402 @@
+{
+  "version": "2026.10.30",
+  "updated": "2026-10-30",
+  "packages": [
+    {
+      "package": "android.autoinstalls.config.Xiaomi.cactus",
+      "description": "Configuración del instalador automático de primer arranque (Redmi 6A); instala apps del OEM tras la configuración inicial/restablecimiento. No se usa después.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "android.autoinstalls.config.Xiaomi.cepheus",
+      "description": "Configuración del instalador automático de primer arranque (Mi 9); instala apps del OEM tras la configuración inicial/restablecimiento. No se usa después.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "android.autoinstalls.config.Xiaomi.cereus",
+      "description": "Configuración del instalador automático de primer arranque (Redmi 6); instala apps del OEM tras la configuración inicial/restablecimiento. No se usa después.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "android.autoinstalls.config.Xiaomi.daisy",
+      "description": "Configuración del instalador automático de primer arranque (Mi A2 Lite); instala apps del OEM durante la configuración inicial. No se usa después.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "android.autoinstalls.config.Xiaomi.dipper",
+      "description": "Configuración del instalador automático de primer arranque (Mi 8); instala apps del OEM durante la configuración inicial. No se usa después.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "android.autoinstalls.config.Xiaomi.land",
+      "description": "Configuración del instalador automático de primer arranque (Redmi 3S); instala apps del OEM durante la configuración inicial. No se usa después.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "android.autoinstalls.config.Xiaomi.model",
+      "description": "Configuración de instalación automática de Play: descarga apps de socios tras la primera configuración/restablecimiento. No hace falta después.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "android.autoinstalls.config.Xiaomi.qssi",
+      "description": "Configuración de instalación automática de Play (compilaciones genéricas de Qualcomm): instala apps de socios durante la configuración inicial.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "android.autoinstalls.config.Xiaomi.whyred",
+      "description": "Configuración del instalador automático de primer arranque (Redmi Note 5); solo se usa durante la configuración inicial.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "android.autoinstalls.config.Xiaomi.willow",
+      "description": "Configuración del instalador automático de primer arranque (Redmi Note 8T); solo se usa durante la configuración inicial.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "co.aospa.dolby.xiaomi",
+      "description": "App de Dolby Atmos en ROMs personalizadas AOSPA para Xiaomi; quitarla solo elimina el audio Dolby.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.carrierconfig.overlay.miui",
+      "description": "Overlay de MIUI para la configuración del operador. Solo es inofensivo si la configuración del operador ya no está.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.inputsettings.overlay.miui",
+      "description": "Overlay de ajustes del teclado de MIUI. UAD-ng: en HyperOS 3 la función de anillo de cámara depende de él.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.networkstack.overlay.miui",
+      "description": "Overlay de MIUI para la pila de red. UAD-ng Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.phone.cust.overlay.miui",
+      "description": "Overlay de personalización de MIUI para el servicio de teléfono. Consérvalo para las llamadas.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.phone.overlay.miui",
+      "description": "Overlay de MIUI para la app de teléfono/telefonía. Quitarlo puede romper las llamadas.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.providers.telephony.overlay.miui",
+      "description": "Overlay de MIUI para la base de datos de telefonía. UAD-ng Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.provision.overlay.miui",
+      "description": "Overlay de MIUI para el aprovisionamiento. UAD-ng Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.server.telecom.overlay.miui",
+      "description": "Overlay de MIUI para la interfaz de gestión de llamadas. No lo quites.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.android.settings.overlay.miui",
+      "description": "Overlay de Ajustes de MIUI solo de recursos. Usuarios de XDA lo relacionaron con un botón de grabación de llamadas roto.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.android.stk.overlay.miui",
+      "description": "Overlay de MIUI para SIM Toolkit. Quítalo solo junto con SIM Toolkit.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.systemui.overlay.miui",
+      "description": "Overlay de SystemUI de MIUI solo de recursos. Usuarios de XDA relacionaron su eliminación con un botón de grabación de llamadas roto.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.android.wifi.resources.xiaomi",
+      "description": "Recursos de configuración Wi-Fi de Xiaomi. Consérvalos o el Wi-Fi puede fallar (UAD-ng Unsafe).",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.facemoji.lite.xiaomi",
+      "description": "Teclado Facemoji (anuncios/análisis). Instala primero otro teclado.",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.google.android.cellbroadcastreceiver.overlay.miui",
+      "description": "Superposición de MIUI para alertas de emergencia. Bajo impacto.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.cellbroadcastservice.overlay.miui",
+      "description": "Superposición de MIUI para el servicio de difusión celular. Bajo impacto.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.google.android.wifi.resources.xiaomi",
+      "description": "Superposición de Xiaomi para recursos Wi-Fi. UAD-ng no vio problemas de Wi-Fi tras eliminarla.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.kingsgroup.ss.xiaomi",
+      "description": "Juego de KingsGroup precargado (edición Xiaomi). Listado por KernelTruth.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth"
+      ]
+    },
+    {
+      "package": "com.mfashiongallery.emag",
+      "description": "Revista de fondos de pantalla/bloqueo de Xiaomi (China).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.android.g",
+      "description": "Paquete de Xiaomi sin documentar, listado solo por KernelTruth; propósito desconocido.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth"
+      ]
+    },
+    {
+      "package": "com.mi.android.globalFileexplorer",
+      "description": "Xiaomi File Manager (global). Tiene anuncios; instala primero otro administrador de archivos.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.android.globallauncher",
+      "description": "POCO Launcher. Si lo eliminas pierdes la pantalla de inicio, los gestos y las apps recientes.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.android.globalpersonalassistant",
+      "description": "App Vault (panel de widgets a la izquierda de Inicio) en versiones globales antiguas.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.appfinder",
+      "description": "Asistente de búsqueda de apps del launcher. Se elimina en las listas de HyperOS 2/3 sin romper la búsqueda.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "hyperos2",
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.mi.global.bbs",
+      "description": "App del foro Xiaomi Community.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.global.pocobbs",
+      "description": "App del foro POCO Community.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.global.pocostore",
+      "description": "App de la tienda en línea de POCO.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.global.shop",
+      "description": "App de compras Xiaomi Store.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.globalbrowser",
+      "description": "Mi Browser (global): anuncios y mal historial de privacidad. Usa otro navegador.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.mi.globalbrowser.mini",
+      "description": "Mi Browser Mini",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.mi.globallayout",
+      "description": "Define el diseño global del launcher en el primer inicio/restablecimiento. El restablecimiento del launcher puede verse mal.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.globalminusscreen",
+      "description": "App Vault: la página de widgets/feed que se desliza a la izquierda en la pantalla de inicio.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.health",
+      "description": "App oculta de frecuencia cardíaca (MIUI antiguo). Obsoleta en HyperOS.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.healthglobal",
+      "description": "Mi Health (pasos, sueño, frecuencia cardíaca). Elimínalo si no lo usas.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mi.webkit.core",
+      "description": "Alternativa de WebView de Xiaomi. Algunas apps de Xiaomi pueden depender de ella.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.milink.service",
+      "description": "Transmisión/conectividad de Xiaomi (UniPlay). La transmisión de pantalla y algunas funciones entre dispositivos se detienen.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.mipay.wallet",
+      "description": "Mi Pay/Xiaomi Wallet. Elimínalo si no pagas con Mi Pay.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mipay.wallet.id",
+      "description": "Mi Pay (Indonesia). Elimínalo si no lo usas.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.mipay.wallet.in",
+      "description": "Mi Pay (India). Elimínalo si no lo usas.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.accessibility",
+      "description": "Funciones de accesibilidad de Xiaomi (Mi Ditto, salida de voz). Se eliminan en la lista del 15 Ultra.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.analytics",
+      "description": "Telemetría de Xiaomi Analytics. Todas las fuentes recomiendan eliminarla.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.android.fashiongallery",
+      "description": "Feed de contenido de pantalla de bloqueo Wallpaper Carousel (Glance).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.antispam",
+      "description": "Bloqueador de spam de llamadas/SMS. Dejan de funcionar las funciones de la lista de bloqueo.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.aod",
+      "description": "Pantalla siempre activa y editor de pantalla de bloqueo. En algunos modelos, la huella en pantalla depende de él.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.appvault",
+      "description": "App Vault (nombre de paquete alternativo); ovsky lo califica como riesgoso.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.miui.audioeffect",
+      "description": "Efectos de audio/ecualizador de Xiaomi. Pueden desaparecer las mejoras de sonido.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.audiomonitor",
+      "description": "Asistente de grabación de llamadas. XDA: eliminarlo rompe el botón de grabar llamadas en el marcador.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.backup",
+      "description": "Copia de seguridad/restauración local (Ajustes \u003e Copia de seguridad). Elimínalo solo si haces copias de otra forma.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.browser",
+      "description": "Mi Browser (nombre alternativo). Instala primero otro navegador.",
+      "category": "bloatware",
+      "risk": "caution",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.miui.bugreport",
+      "description": "Reportador de errores Mi Feedback; envía registros a Xiaomi.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "reddit",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.calculator",
+      "description": "Calculadora de Xiaomi. Instala otra calculadora si necesitas una.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.calendar",
+      "description": "Calendario de Xiaomi (nombre de paquete alternativo). Elimínalo solo si usas otro calendario.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.miui.carlink",
+      "description": "Conexión al auto CarWith (sobre todo autos disponibles solo en China).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.carrierinstructions",
+      "description": "Acceso directo al manual en línea del operador.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.catcherpatch",
+      "description": "Asistente del servicio Application Extension (autocompletado). Elimínalo junto con este.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.cit",
+      "description": "Menú oculto de pruebas de hardware (CIT). No se usa en el día a día.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.cleaner",
+      "description": "Xiaomi Cleaner (basado en Cheetah) con anuncios. Puede desaparecer la limpieza de almacenamiento en Seguridad.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.cleanmaster",
+      "description": "Xiaomi Cleaner (nombre antiguo), limpiador de basura con anuncios.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.cloudbackup",
+      "description": "Copia de seguridad de Xiaomi Cloud. Elimínalo solo si no respaldas en Xiaomi Cloud.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.cloudservice",
+      "description": "Núcleo de sincronización de Xiaomi Cloud. ovsky lo califica como riesgoso; mpierson dice que lo necesitan las actualizaciones OTA y los cambios de región.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.cloudservice.global",
+      "description": "Mi Cloud Service (variante global)",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.miui.cloudservice.sysbase",
+      "description": "Biblioteca base de Xiaomi Cloud. mpierson la lista entre los paquetes que necesitan las actualizaciones OTA.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.compass",
+      "description": "App Brújula de Xiaomi.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.contentcatcher",
+      "description": "Application Extension Service (autocompletado/sincronización de contraseñas de Xiaomi).",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.contentextension",
+      "description": "Taplus: mantén presionado el contenido de la pantalla para ver información/buscar. Desactivado de forma predeterminada.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.core",
+      "description": "SDK de MIUI usado por casi todas las apps de Xiaomi. No lo elimines.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.core.internal.assistant",
+      "description": "Asistente para el asistente de voz chino XiaoAI.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.core.internal.editor.services",
+      "description": "Servicio interno de editor de MIUI. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.core.internal.services",
+      "description": "Servicios internos de instalación automática/sistema de MIUI. KernelTruth lo lista; UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.cotaservice",
+      "description": "Actualizaciones inalámbricas de operador/configuración; se comunica constantemente con Xiaomi.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.daemon",
+      "description": "MIUI Daemon: recopila datos de uso. La mayoría de las fuentes lo eliminan; mpierson dice que OTA puede necesitarlo.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "reddit",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.easygo",
+      "description": "Asistente de MIUI sin uso y sin función visible para el usuario.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.enbbs",
+      "description": "Antigua app de los foros de Xiaomi.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.euicc",
+      "description": "Administrador de eSIM. Elimínalo solo si nunca usas eSIM.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.extraphoto",
+      "description": "Extras de documentos/bokeh de la cámara. ovsky lo deja solo para restauración; mpierson lo elimina.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.face",
+      "description": "Desbloqueo facial. Deja de funcionar el desbloqueo facial; ovsky lo deja solo para restauración.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.face.overlay.miui",
+      "description": "Overlay para el desbloqueo facial. El desbloqueo facial puede dejar de funcionar.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.findmy",
+      "description": "Find Device (nombre en HyperOS según ovsky). Eliminarlo desactiva ubicar/bloquear/borrar el teléfono.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.miui.fm",
+      "description": "App de radio FM.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.fmservice",
+      "description": "Servicio de radio FM que usa la app de FM.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.freeform",
+      "description": "Ventanas flotantes. Kirthan lo lista como seguro; ovsky lo deja solo para restauración.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.gallery",
+      "description": "Galería de Xiaomi. Se rompen la vista previa y la edición de capturas de pantalla; instala otra galería.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.global.packageinstaller",
+      "description": "Instalador de paquetes de MIUI. La lista del 15 Ultra lo elimina; UAD-ng: bootloops en ROMs de Xiaomi.eu.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.greenguard",
+      "description": "Motor antivirus Security Guard que usa el escáner de la app Seguridad.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.guardprovider",
+      "description": "Proveedor del motor de análisis de seguridad. ovsky lo lista como seguro; UAD-ng Advanced, los análisis de APK pueden fallar.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.home",
+      "description": "Lanzador de MIUI/HyperOS. Eliminarlo puede romper los gestos/recientes o el arranque. Nunca lo elimines.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.huanji",
+      "description": "Mi Mover: transferencia de datos entre teléfonos. No es necesario tras la configuración inicial.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.hybrid",
+      "description": "Quick Apps: plataforma de miniapps que muestra anuncios.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.hybrid.accessory",
+      "description": "Asistente complementario de Quick Apps. Elimínalo junto con Quick Apps.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.klo.bugreport",
+      "description": "Reportador de fallos de KLO: envía registros de errores del sistema a Xiaomi.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.maintenancemode",
+      "description": "Modo de mantenimiento/reparación que oculta los datos del usuario durante el servicio.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.mediaeditor",
+      "description": "Editor de fotos/videos de la Galería. Deja de funcionar la edición en la Galería.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.mediafeature",
+      "description": "Paquete de funciones multimedia, casi sin uso fuera de China.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.mediaviewer",
+      "description": "Visor multimedia que usan Galería/Archivos para reproducir videos.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.metoknlp",
+      "description": "Proveedor de ubicación por red de China con analíticas.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.micloudsync",
+      "description": "Sincronización de Xiaomi Cloud. XDA: necesaria para respaldar/restaurar SMS y registros de llamadas.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.miinput",
+      "description": "Atajos de gestos (p. ej., nudillo/tres dedos). Esos atajos dejan de funcionar.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.miservice",
+      "description": "Services \u0026 Feedback. mpierson: eliminarlo puede romper el Bluetooth en algunos modelos.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.mishare.connectivity",
+      "description": "Transferencia de archivos Mi Share/Xiaomi Share. ovsky lo deja solo para restauración.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.misightservice",
+      "description": "Recolector de diagnósticos/telemetría de MiSight.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.misound",
+      "description": "Ajustes de audífonos/sonido (ecualizador, volumen por app). Pueden desaparecer los ajustes de sonido.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.miwallpaper",
+      "description": "Motor de fondos de pantalla. mpierson: eliminarlo deja la pantalla de bloqueo en negro y rompe el cambio de fondos.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "mpierson",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.miwallpaper.config.overlay",
+      "description": "Overlay de configuración del motor de fondos de pantalla.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.miwallpaper.earth",
+      "description": "Super Wallpaper Earth (animado).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.miwallpaper.mars",
+      "description": "Super Wallpaper Mars (animado).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.miwallpaper.overlay",
+      "description": "Overlay de fondos solo de recursos. Se elimina en la lista del 15 Ultra.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.miwallpaper.overlay.customize",
+      "description": "Overlay de fondos solo de recursos. Se elimina en la lista del 15 Ultra.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.miwallpaper.overlay.lundun",
+      "description": "Overlay de fondos solo de recursos.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.miwallpaper.overlay.qr",
+      "description": "Overlay de ruta de fondos de bloqueo solo de recursos.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.miwallpaper.telcel.overlay",
+      "description": "Overlay de fondos del operador Telcel.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.msa.global",
+      "description": "MSA, el motor de anuncios del sistema de Xiaomi. Todas las fuentes recomiendan eliminarlo o revocar sus permisos.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "reddit",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.newhome",
+      "description": "Servicio de feed de contenido de China.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.newmidrive",
+      "description": "Sincronización de archivos en la nube Mi Drive (China); se ejecuta en segundo plano.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.nextpay",
+      "description": "Extensión de pago con tarjetas inteligentes/transporte de China.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.notes",
+      "description": "Notas de Xiaomi. Haz una copia de tus notas antes de eliminarlo.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.notification",
+      "description": "Interfaz de ajustes de notificaciones de MIUI. mpierson lo lista como seguro; UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.otaprovision",
+      "description": "Asistente de aprovisionamiento OTA de China con analíticas.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.packageinstaller",
+      "description": "Instalador de paquetes de MIUI en ROMs de China. UAD-ng reporta bootloops allí al eliminarlo.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.permission",
+      "description": "Componente de permisos de MIUI. ovsky lo deja solo para restauración.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "ovsky"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.permissioncontroller.overlay",
+      "description": "Overlay de MIUI para el controlador de permisos. UAD-ng Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.personalassistant",
+      "description": "Panel de widgets de App Vault en algunas compilaciones. ovsky lo califica como riesgoso; UAD-ng seguro.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.phone.carriers.customized.overlay",
+      "description": "Overlay de VoWiFi/VoLTE del operador. UAD-ng dice que no se usa, pero toca la telefonía.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.phone.carriers.overlay",
+      "description": "Overlay de tipo de red del operador. UAD-ng dice que no se usa.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.phone.carriers.overlay.h3g",
+      "description": "Preajuste de red del operador Three (H3G). No se usa con otros operadores.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.phone.carriers.overlay.vodafone",
+      "description": "Preajuste de red del operador Vodafone. No se usa con otros operadores.",
+      "category": "system",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.phrase",
+      "description": "Frases frecuentes en el menú del teclado/pegar. ovsky lo deja solo para restauración.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.player",
+      "description": "Reproductor Mi Music (con anuncios). Instala primero otro reproductor de música.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.powerinsight",
+      "description": "Asistente de estadísticas de batería/consumo de MIUI (ovsky fase 1).",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.miui.powerkeeper",
+      "description": "Administrador de batería y rendimiento de MIUI. Consérvalo; se rompen los ajustes de batería.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.privacycomputing",
+      "description": "Componente de computación privada de MIUI (China).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.providers.weather",
+      "description": "Proveedor de datos del clima para Mi Weather y sus widgets.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.qr",
+      "description": "Escáner QR que usan los atajos de la cámara/centro de control.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.roaming",
+      "description": "Mi Roaming (nombre alternativo). Elimínalo solo si no compras datos en roaming.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.miui.rom",
+      "description": "Paquete central de MIUI. KernelTruth lo lista, pero UAD-ng dice que nunca se elimine.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.safetycenter.config.overlay",
+      "description": "Overlay de configuración del centro de seguridad. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.safetycenter.res.overlay",
+      "description": "Overlay de recursos del centro de seguridad. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.scanner",
+      "description": "Xiaomi Scanner (nombre antiguo). ovsky lo califica como riesgoso.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.miui.screenrecorder",
+      "description": "App de grabación de pantalla.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.screenshot",
+      "description": "Servicio de capturas de pantalla. Las capturas dejan de funcionar.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.securityadd",
+      "description": "Complemento de seguridad. ovsky lo lista como seguro, pero UAD-ng advierte de bootloops por debajo de MIUI 13.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.securitycenter",
+      "description": "App Seguridad (permisos, limpiador, batería). UAD-ng: probable bootloop en MIUI antiguo. Consérvala.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "ovsky",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.securitycenter.securitycenter_phone_overlay.config.overlay",
+      "description": "Overlay de configuración de la app Seguridad.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.securitycore",
+      "description": "Núcleo de seguridad (Dual Apps, Second Space). KernelTruth lo lista; UAD-ng advierte de bootloops.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.securityinputmethod",
+      "description": "Teclado seguro para campos de contraseña. Se usa el teclado normal en su lugar.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.settings.overlay.miui",
+      "description": "Overlay de Ajustes de MIUI. Usuarios de XDA asociaron su eliminación con el botón de grabar llamadas dañado.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.settings.rro.device.config.overlay",
+      "description": "Overlay de configuración del dispositivo para Ajustes. UAD-ng Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.settings.rro.device.hide.statusbar.overlay",
+      "description": "Overlay de recursos de la barra de estado. Se elimina en la lista del 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.settings.rro.device.systemui.overlay",
+      "description": "Overlay de SystemUI del dispositivo para Ajustes. UAD-ng Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.settings.rro.device.type.overlay",
+      "description": "Overlay de imágenes por tipo de dispositivo para Ajustes. Se elimina en la lista del 15 Ultra.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.smsextra",
+      "description": "Asistente de Xiaomi Messages. Elimínalo solo si usas otra app de SMS.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.spock",
+      "description": "Analíticas en segundo plano que envían datos del dispositivo a Xiaomi.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.sysopt",
+      "description": "Asistente de depuración/optimización sin funciones visibles para el usuario.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.system",
+      "description": "Paquete central del sistema de MIUI. KernelTruth lo lista, pero UAD-ng dice que nunca se elimine.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.system.overlay",
+      "description": "Overlay del sistema de MIUI solo de recursos.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.systemAdSolution",
+      "description": "Motor de anuncios del sistema que perfila el uso para anuncios dirigidos.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.systemui",
+      "description": "System UI — componente crítico del sistema",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.miui.systemui.carriers.overlay",
+      "description": "Overlay del operador para SystemUI. KernelTruth lo lista; UAD-ng: pierdes LTE.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.miui.systemui.devices.overlay",
+      "description": "Overlay de relleno de bordes/recortes de pantalla de SystemUI. El diseño de la barra de estado puede cambiar.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.systemui.overlay.devices.android",
+      "description": "Overlay de dispositivo de SystemUI (configuración doze/AOD). UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.themestore",
+      "description": "Tienda de temas (nombre alternativo). ovsky lo califica como riesgoso.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.miui.thirdappassistant",
+      "description": "Reportador de problemas de apps de terceros.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.touchassistant",
+      "description": "Atajos flotantes Quick Ball. La mayoría de las listas lo eliminan; un usuario de XDA señala que es útil en pantallas grandes.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.translate",
+      "description": "MIUI Translator",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.miui.translation.kingsoft",
+      "description": "Motor de traducción de Kingsoft (China).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.translation.xmcloud",
+      "description": "Motor de traducción en la nube de Xiaomi. No afecta la traducción de Google.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.translation.youdao",
+      "description": "Motor de traducción de Youdao (China).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.translationservice",
+      "description": "Servicio de traducción de Xiaomi (subtítulos/traducción de pantalla).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.tsmclient",
+      "description": "Cliente de tarjetas inteligentes (tarjetas de transporte/NFC), centrado en China según UAD-ng.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.tv.analytics",
+      "description": "Componente de analíticas.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.uireporter",
+      "description": "Reportador de uso de la interfaz (telemetría).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.userguide",
+      "description": "App de guía de usuario/consejos de Xiaomi.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.video",
+      "description": "Mi Video (nombre alternativo) con anuncios y rastreo.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.videoplayer",
+      "description": "Reproductor Mi Video con anuncios. Instala primero otro reproductor de video.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.videoplayer.overlay",
+      "description": "Overlay para Mi Video. Elimínalo junto con Mi Video.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.vipservice",
+      "description": "Centro de soporte al cliente “Mis servicios”.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.virtualsim",
+      "description": "Datos de SIM virtual de Mi Roaming. ovsky lo deja solo para restauración.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.voiceassist",
+      "description": "Asistente de voz chino XiaoAI.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.voiceassistProxy",
+      "description": "Proxy del asistente de voz (ovsky fase de servicios ocultos).",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.miui.voiceassistoverlay",
+      "description": "Overlay de interfaz del asistente de voz de Xiaomi. Deja de mostrarse la ventana emergente del asistente.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.voicetrigger",
+      "description": "Palabra de activación por voz del asistente de Xiaomi.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.vpnsdkmanager",
+      "description": "Administrador del SDK de VPN de Xiaomi (aceleración de juegos). No afecta las apps VPN normales.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.vsimcore",
+      "description": "Núcleo de SIM virtual (Mi Roaming). ovsky lo deja solo para restauración.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.wallpaper",
+      "description": "MIUI Wallpaper Carousel",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.miui.wallpaper.overlay",
+      "description": "Overlay de fondos solo de recursos. Se elimina en la lista del 15 Ultra.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.wallpaper.overlay.customize",
+      "description": "Overlay de fondos solo de recursos. Se elimina en la lista del 15 Ultra.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.weather",
+      "description": "MIUI Weather",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "original"
+      ]
+    },
+    {
+      "package": "com.miui.weather2",
+      "description": "App del clima de Xiaomi. Los widgets del clima dejan de funcionar.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.wmsvc",
+      "description": "WMService: servicio en segundo plano con acceso a red/ubicación. Sin función para el usuario.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.miui.yellowpage",
+      "description": "Directorio de identificación de llamadas de empresas de Yellow Pages.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.miui.zman",
+      "description": "Compartición segura: elimina la ubicación/los metadatos al compartir desde la Galería.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.sohu.inputmethod.sogou.xiaomi",
+      "description": "Teclado Sogou (China). Instala otro teclado primero.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.NetworkBoost",
+      "description": "Servicio de aceleraci?n de red. Reportado como placebo; poco impacto.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.ab",
+      "description": "Componentes de inicio de sesi?n/pago de Mi Store China.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.account",
+      "description": "Cuenta de Xiaomi. UAD-ng: cierra sesi?n y desvinc?lala antes o podr?as quedar bloqueado. ovsky: riesgoso.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "ovsky",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.xiaomi.aiasst.service",
+      "description": "Asistente de llamadas con IA (filtrado/respuesta). Desactivado por defecto.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.aiasst.vision",
+      "description": "Ayudante de visi?n del asistente con IA. Elim?nalo junto con el asistente de llamadas con IA.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.aicr",
+      "description": "Motor de IA de Xiaomi. ovsky: fase de servicios ocultos; UAD-ng advierte que puede romper la configuraci?n de fondos de pantalla.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.aireco",
+      "description": "Marco de recomendaciones de XiaoAI (sugerencias/anuncios).",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.aiservice",
+      "description": "Motor de IA en el dispositivo (OCR, traducci?n) con telemetr?a OneTrack. Las funciones de IA se detienen.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.android.tvsetup.partnercustomizer",
+      "description": "Personalizador de socios del primer arranque que instala bloatware.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.aon",
+      "description": "Sensor siempre activo (rostro/mirada) con anal?tica. Eliminado en la lista de 15 Ultra.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.barrage",
+      "description": "Notificaciones emergentes tipo \"bala\" de Game Turbo.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.bluetooth",
+      "description": "Extensi?n de Bluetooth de MIUI. UAD-ng la considera segura; mpierson la reinstala para arreglar Bluetooth.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos1"
+      ],
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.bluetooth.overlay",
+      "description": "Overlay solo de im?genes para la interfaz de Bluetooth de Xiaomi.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.bluetooth.rro.device.config.overlay",
+      "description": "Overlay de configuraci?n de Bluetooth del dispositivo. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.bsp.gps.nps",
+      "description": "Componente de soporte GPS. La precisi?n de ubicaci?n puede reducirse.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.bttester",
+      "description": "Servicio de prueba de hardware Bluetooth.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.calendar",
+      "description": "Calendario de Xiaomi. Elim?nalo solo si usas otro calendario.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kirthan",
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.cameramind",
+      "description": "Motor de IA para la c?mara de Xiaomi. Cons?rvalo si usas la c?mara de f?brica.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.cameratools",
+      "description": "Herramienta de calibraci?n de la c?mara. La c?mara sigue funcionando seg?n UAD-ng.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.channel",
+      "description": "Mensajero Mi Talk.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.digitalkey",
+      "description": "Llave digital de auto/puerta (solo China).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.discover",
+      "description": "Actualizador de apps del sistema. Reddit/ovsky: elim?nalo para detener instalaciones forzadas; UAD-ng lo clasifica como Expert.",
+      "category": "bloatware",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "reddit",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.entitlement.o2",
+      "description": "Ayudante de derechos del operador O2. No se usa con otros operadores.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.finddevice",
+      "description": "Find Device. UAD-ng: cierra sesi?n primero; eliminarlo rompe el restablecimiento de f?brica desde la interfaz y el inicio de sesi?n de la cuenta.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "hyperos1",
+        "hyperos2"
+      ],
+      "sources": [
+        "mpierson",
+        "ovsky",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.xiaomi.gamecenter",
+      "description": "Tienda Xiaomi Game Center con rastreo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.gamecenter.sdk.service",
+      "description": "Servicio de SDK/inicio de sesi?n de Game Center. No es necesario para Game Turbo.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.glgm",
+      "description": "Hub de juegos de Xiaomi.",
+      "category": "bloatware",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.gnss.polaris",
+      "description": "Ayudante BeiDou/GNSS (China). Listado en la lista agresiva de mpierson.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "mpierson"
+      ]
+    },
+    {
+      "package": "com.xiaomi.hypercomm",
+      "description": "Interconexi?n de HyperOS (compartici?n entre dispositivos). Eliminado en la lista de 15 Ultra.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "ovsky",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.joyose",
+      "description": "Ajustador t?rmico/de juegos Joyose. UAD-ng Expert; los usuarios de XDA discrepan sobre si limita el rendimiento o protege.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.jr",
+      "description": "App de finanzas/pr?stamos de Xiaomi (China).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.lens",
+      "description": "Ayudante de lente relacionado con la c?mara. Muchos usuarios lo eliminan; su prop?sito no est? claro.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.location.fused",
+      "description": "Proveedor de ubicaci?n de China con anal?tica. La ubicaci?n de Google sigue funcionando.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.macro",
+      "description": "Herramienta de macros/automatizaci?n de Game Turbo.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.market",
+      "description": "Tienda GetApps. Actualiza algunas apps del sistema; ovsky la considera riesgosa. Mejor oculta los anuncios.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.mbnloader",
+      "description": "Cargador de configuraci?n del m?dem (VoWiFi/operador). Cons?rvalo si las llamadas/VoLTE son importantes.",
+      "category": "system",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.metoknlp",
+      "description": "Ayudante de ubicaci?n por red de Xiaomi (enfocado en China). ovsky lo elimina; la ubicaci?n puede degradarse.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.mi_connect_service",
+      "description": "Mi Connect para IoT/entre dispositivos. Mi Home y compartir dispositivos pueden fallar.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.miaudiovisual",
+      "description": "Visualizador de audio con pantalla apagada.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.mibrain.speech",
+      "description": "Motor de voz con IA de Xiaomi (asistente de China).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.micloud.sdk",
+      "description": "SDK de Mi Cloud. UAD-ng: se reinicia solo al eliminarlo; mpierson lo lista como necesario para OTA.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.xiaomi.midrop",
+      "description": "Transferencia de archivos ShareMe (Mi Drop).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.midrop.overlay",
+      "description": "Overlay para ShareMe.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.migameservice",
+      "description": "Componente de prueba del servicio de juegos Mi (China).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.mipicks",
+      "description": "GetApps (nombre antiguo). ovsky lo considera riesgoso; UAD-ng lo considera seguro.",
+      "category": "bloatware",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.miplay_client",
+      "description": "Pantalla inal?mbrica MiPlay/Miracast. La transmisi?n de pantalla se detiene.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.mircs",
+      "description": "Mensajer?a Mi RCS oculta.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.mirecycle",
+      "description": "Promo de recompra de tel?fonos Mi Recycle (India).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.mirror",
+      "description": "Interconexi?n de Xiaomi/MIUI+ (sincronizaci?n PC/tablet). Elim?nalo si no lo usas.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.mis",
+      "description": "Servicio de auto conectado (China).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.misettings",
+      "description": "Extensiones de Ajustes de Xiaomi. UAD-ng Unsafe.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ],
+      "neverRemove": true
+    },
+    {
+      "package": "com.xiaomi.mitv.res",
+      "description": "Paquete de recursos de Mi TV/utilidades. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.mtb",
+      "description": "Herramienta oculta de depuraci?n de banda base (MTB). No visible para el usuario.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.o2o",
+      "description": "Promociones de compras de tienda f?sica desde l?nea (online-to-offline).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.oobhelper",
+      "description": "Marco de ayuda y registros de configuraci?n inicial (out-of-box).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.otrpbroker",
+      "description": "Broker del protocolo OTRP para IoT (China).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.oversea.ecom",
+      "description": "Comercio electr?nico Xiaomi ShopPlus.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.pass",
+      "description": "Tarjetas/llaves NFC Mi Pass. Elim?nalo si no usas tarjetas NFC con Xiaomi.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.payment",
+      "description": "Componente de pago Mi Credit/Mi Pay (nombre antiguo).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "ovsky",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.phone",
+      "description": "Extensi?n de telefon?a HyperPhone. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "hyperos2"
+      ],
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.phone.overlay",
+      "description": "Overlay para HyperPhone. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.powerchecker",
+      "description": "Detector de consumo de energ?a que usa el administrador de bater?a. UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.providers.appindex",
+      "description": "Proveedor de ?ndice de apps (ajustes/b?squeda). Se elimina con frecuencia.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.roaming",
+      "description": "Mi Roaming (nombre de ovsky). Elim?nalo si no compras datos en roaming.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.xiaomi.scanner",
+      "description": "Xiaomi Scanner (QR/documentos). ovsky lo considera riesgoso; muchas listas lo eliminan.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "kirthan",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.security.onetrack",
+      "description": "Servicio de telemetr?a de seguridad OneTrack.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.shop",
+      "description": "Antigua app de tienda de Xiaomi.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.simactivate.service",
+      "description": "Activaci?n de SIM para servicios de Xiaomi. mpierson lo reinstala para arreglar las actualizaciones OTA.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.smarthome",
+      "description": "Xiaomi Home (dispositivos IoT).",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.thememanager",
+      "description": "Themes (nombre alternativo). ovsky lo considera riesgoso.",
+      "category": "oem",
+      "risk": "danger",
+      "sources": [
+        "ovsky"
+      ]
+    },
+    {
+      "package": "com.xiaomi.touchservice",
+      "description": "Servicio t?ctil con anal?tica. Eliminado en la lista de 15 Ultra.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.trustservice",
+      "description": "Servicio de seguridad MiTrust. El OP de XDA lo reinstal?; su prop?sito no est? claro.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "hyperos3"
+      ],
+      "sources": [
+        "local15u",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.ugd",
+      "description": "Controlador de GPU actualizable. mpierson lo lista como seguro; UAD-ng Expert.",
+      "category": "system",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "mpierson",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.upnp",
+      "description": "Descubrimiento UPnP para transmisi?n (casting).",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.vipaccount",
+      "description": "App VIP/membres?a de Xiaomi.",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.xaee",
+      "description": "Motor edge de XiaoAI.",
+      "category": "oem",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.xmsf",
+      "description": "Xiaomi Service Framework (push, OTA). ovsky dice que es seguro; UAD-ng Expert, mpierson dice que OTA lo necesita.",
+      "category": "oem",
+      "risk": "danger",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "ovsky",
+        "uad"
+      ]
+    },
+    {
+      "package": "com.xiaomi.xmsfkeeper",
+      "description": "Guardi?n/registrador de XMSF. mpierson lo lista entre las soluciones de OTA.",
+      "category": "oem",
+      "risk": "caution",
+      "os": [
+        "miui",
+        "hyperos3"
+      ],
+      "sources": [
+        "kerneltruth",
+        "local15u",
+        "mpierson",
+        "uad",
+        "xda"
+      ]
+    },
+    {
+      "package": "com.xiaomi.youpin",
+      "description": "Tienda Xiaomi Youpin (China).",
+      "category": "bloatware",
+      "risk": "safe",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "eu.xiaomi.ext",
+      "description": "Extensi?n de ROM de Xiaomi.eu. Solo en ROMs personalizadas Xiaomi.eu.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "eu.xiaomi.module.inject",
+      "description": "Inyecci?n de informaci?n del dispositivo de Xiaomi.eu. Solo en ROMs personalizadas Xiaomi.eu.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "miui.systemui.plugin",
+      "description": "Plugin de SystemUI de HyperOS: el centro de control y la interfaz de volumen vuelven a AOSP.",
+      "category": "system",
+      "risk": "caution",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "miuix.stub",
+      "description": "Stub de la biblioteca MIUIX.",
+      "category": "oem",
+      "risk": "caution",
+      "sources": [
+        "uad"
+      ]
+    },
+    {
+      "package": "org.mipay.android.manager",
+      "description": "Servicio Mi Pay. No se usa fuera de las regiones de Mi Pay.",
+      "category": "oem",
+      "risk": "safe",
+      "os": [
+        "miui"
+      ],
+      "sources": [
+        "kerneltruth",
+        "mpierson",
+        "uad"
+      ]
+    }
+  ]
+}
